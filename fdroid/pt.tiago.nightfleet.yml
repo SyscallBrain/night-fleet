@@ -2,7 +2,8 @@
 # Description, icon, screenshots and changelogs come from fastlane/metadata/android/ in the repository.
 
 Categories:
-  - Games
+  - Strategy Game
+  - Puzzle Game
 License: MIT
 AuthorName: Tiago Correia
 SourceCode: https://github.com/SyscallBrain/night-fleet
@@ -17,9 +18,9 @@ Repo: https://github.com/SyscallBrain/night-fleet.git
 Binaries: https://github.com/SyscallBrain/night-fleet/releases/download/v%v/NightFleet-v%v.apk
 
 Builds:
-  - versionName: 1.0.0          # app/build.gradle.kts: versionName
-    versionCode: 1              # app/build.gradle.kts: versionCode (changelogs/1.txt in en-US and pt-PT)
-    commit: v1.0.0
+  - versionName: 1.0.1          # app/build.gradle.kts: versionName
+    versionCode: 2              # app/build.gradle.kts: versionCode (changelogs/2.txt in en-US and pt-PT)
+    commit: v1.0.1              # fdroiddata uses the full commit hash of this tag
     subdir: app
     gradle:
       - yes
@@ -28,5 +29,5 @@ AllowedAPKSigningKeys: 2b198b43d2e1b6cf7b95a57db58c3f515b453621b794aa6bca5a0cbd6
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
-CurrentVersion: 1.0.0
-CurrentVersionCode: 1
+CurrentVersion: 1.0.1
+CurrentVersionCode: 2

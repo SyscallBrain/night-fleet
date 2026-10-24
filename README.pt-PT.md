@@ -2,12 +2,15 @@
 
 <div align="center">
 
+<img src="docs/screenshots/banner.jpg" alt="Night Fleet: uma batalha naval offline para Android" width="100%">
+
 # Night Fleet
 
 **Uma batalha naval offline para Android: doze mares, 600 missões, enigmas e doze almirantes. Sem anúncios, sem internet.**
 
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg)](LICENSE)
-![Estado](https://img.shields.io/badge/estado-em%20desenvolvimento-E0AF68)
+[![CI](https://github.com/SyscallBrain/night-fleet/actions/workflows/ci.yml/badge.svg)](https://github.com/SyscallBrain/night-fleet/actions/workflows/ci.yml)
+[![Versão](https://img.shields.io/github/v/release/SyscallBrain/night-fleet?label=vers%C3%A3o&color=E0B154)](https://github.com/SyscallBrain/night-fleet/releases/latest)
 ![Plataforma](https://img.shields.io/badge/plataforma-Android%208.0%2B-3DDC84?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.4-7F52FF?logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?logo=jetpackcompose&logoColor=white)
@@ -16,6 +19,8 @@
 ![Sem anúncios](https://img.shields.io/badge/an%C3%BAncios%20e%20rastreio-nenhum-F7768E)
 ![Permissões](https://img.shields.io/badge/permiss%C3%B5es-s%C3%B3%20VIBRATE-9ECE6A)
 ![Idiomas](https://img.shields.io/badge/idiomas-English%20%7C%20Portugu%C3%AAs-7DCFFF)
+
+[Descarregar](#descarregar) · [Funcionalidades](#funcionalidades) · [Capturas](#capturas-de-ecrã) · [Compilar](#compilar-a-partir-do-código) · [Arquitetura](#arquitetura) · [Contribuir](#contribuir)
 
 </div>
 
@@ -27,7 +32,12 @@ O Night Fleet é um jogo de batalha naval para um jogador contra almirantes, ou 
 
 A campanha tem **12 mares com 50 missões cada** (600 missões no total), cada missão em três dificuldades: Fácil, Médio e Difícil. Cada mar termina com uma batalha contra um chefe, um dos **12 almirantes**, cada um com o seu estilo.
 
-*Estado: o jogo e a campanha estão implementados e testados no telemóvel. Faltam a passagem com o TalkBack no aparelho e a primeira versão publicada, por isso a app ainda não está no F-Droid.*
+## Descarregar
+
+- **GitHub:** o APK assinado de cada versão está na [página de versões](https://github.com/SyscallBrain/night-fleet/releases/latest). É compilado a partir do código da tag pelo workflow de release, e a build é reproduzível.
+- **F-Droid:** submetido para inclusão; a ligação fica aqui quando for publicado.
+
+A app precisa do Android 8.0 ou mais recente e só pede a permissão de vibração.
 
 ## Funcionalidades
 

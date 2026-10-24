@@ -1,0 +1,10 @@
+{
+  "admiralId": "commodore-haze",
+  "introCards": [
+    "intro.lighthouse-puzzle"
+  ],
+  "musicTrack": "drone-soft",
+  "nameKey": "sea.s02.name",
+  "number": 2,
+  "weather": "light-haze"
+}

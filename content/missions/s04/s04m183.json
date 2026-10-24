@@ -1,0 +1,175 @@
+{
+  "family": "islands-ring",
+  "id": "s04m183",
+  "ordinal": 183,
+  "sea": 4,
+  "tags": [
+    "ISLANDS",
+    "SONAR"
+  ],
+  "tutorial": null,
+  "type": "DUEL",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 391,
+        "followUpMiss": 600,
+        "tier": "EASY",
+        "weaponDelay": 1
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s04m183-E",
+      "levelSeed": 3141219558233216765,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-ring-s04m183",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 52,
+        "two": 60
+      },
+      "weapons": {
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 320,
+        "followUpMiss": 825,
+        "tier": "HARD",
+        "weaponDelay": 1
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s04m183-H",
+      "levelSeed": 5781402379603052958,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-ring-s04m183",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 44,
+        "two": 50
+      },
+      "weapons": {
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 238,
+        "followUpMiss": 450,
+        "tier": "MEDIUM",
+        "weaponDelay": 1
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s04m183-M",
+      "levelSeed": 3114313024105979865,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-ring-s04m183",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 45,
+        "two": 50
+      },
+      "weapons": {
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    }
+  }
+}

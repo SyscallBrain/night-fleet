@@ -1,0 +1,268 @@
+{
+  "family": "hunt-mines",
+  "id": "s08m385",
+  "ordinal": 385,
+  "sea": 8,
+  "tags": [
+    "ISLANDS",
+    "MINES",
+    "SCHOOL",
+    "SONAR",
+    "TORPEDO",
+    "RECON",
+    "DECOY"
+  ],
+  "tutorial": null,
+  "type": "HUNT",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 292,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s08m385-E",
+      "levelSeed": 3691788388694890105,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          [
+            "E1",
+            "C2",
+            "B3",
+            "E5",
+            "J8"
+          ]
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s08m385",
+        "width": 10
+      },
+      "shotBudget": 63,
+      "stars": {
+        "three": 50,
+        "two": 57
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO"
+        ],
+        "blunder": 48,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s08m385-H",
+      "levelSeed": -6278274632518642441,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          [
+            "F1",
+            "A2",
+            "B5",
+            "D6",
+            "F8",
+            "I10"
+          ]
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s08m385",
+        "width": 10
+      },
+      "shotBudget": 56,
+      "stars": {
+        "three": 50,
+        "two": 53
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY"
+        ],
+        "blunder": 162,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s08m385-M",
+      "levelSeed": -1058023521441879008,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          [
+            "A1",
+            "C1",
+            "I1",
+            "E6",
+            "C8"
+          ]
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s08m385",
+        "width": 10
+      },
+      "shotBudget": 61,
+      "stars": {
+        "three": 52,
+        "two": 57
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    }
+  }
+}

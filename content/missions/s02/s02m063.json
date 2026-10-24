@@ -1,0 +1,139 @@
+{
+  "family": "archipelago-corridor",
+  "id": "s02m063",
+  "ordinal": 63,
+  "sea": 2,
+  "tags": [
+    "ISLANDS"
+  ],
+  "tutorial": null,
+  "type": "DUEL",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 407,
+        "followUpMiss": 450,
+        "tier": "EASY",
+        "weaponDelay": 6
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s02m063-E",
+      "levelSeed": -3299299423193429647,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SMALL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s02m063",
+        "width": 8
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 30,
+        "two": 37
+      },
+      "weapons": {}
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 320,
+        "followUpMiss": 900,
+        "tier": "HARD",
+        "weaponDelay": 6
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s02m063-H",
+      "levelSeed": 4046423305527326205,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SMALL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s02m063",
+        "width": 8
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 29,
+        "two": 33
+      },
+      "weapons": {}
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 250,
+        "followUpMiss": 450,
+        "tier": "MEDIUM",
+        "weaponDelay": 6
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s02m063-M",
+      "levelSeed": -7373500847368092708,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SMALL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s02m063",
+        "width": 8
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 28,
+        "two": 32
+      },
+      "weapons": {}
+    }
+  }
+}

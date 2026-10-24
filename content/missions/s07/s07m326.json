@@ -1,0 +1,215 @@
+{
+  "family": "hunt-school",
+  "id": "s07m326",
+  "ordinal": 326,
+  "sea": 7,
+  "tags": [
+    "ISLANDS",
+    "SCHOOL",
+    "SONAR",
+    "RECON",
+    "DECOY"
+  ],
+  "tutorial": null,
+  "type": "HUNT",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 298,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s07m326-E",
+      "levelSeed": 2484148816915205041,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s07m326",
+        "width": 10
+      },
+      "shotBudget": 79,
+      "stars": {
+        "three": 66,
+        "two": 72
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY"
+        ],
+        "blunder": 51,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s07m326-H",
+      "levelSeed": 7710529613180918893,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s07m326",
+        "width": 10
+      },
+      "shotBudget": 68,
+      "stars": {
+        "three": 59,
+        "two": 64
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON"
+        ],
+        "blunder": 166,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s07m326-M",
+      "levelSeed": -6659397034037477239,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s07m326",
+        "width": 10
+      },
+      "shotBudget": 72,
+      "stars": {
+        "three": 62,
+        "two": 68
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    }
+  }
+}

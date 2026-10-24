@@ -1,0 +1,82 @@
+{
+  "aiVersion": 3,
+  "contentVersion": 1,
+  "difficulty": "HARD",
+  "engineVersion": 1,
+  "id": "s12m559-H",
+  "kind": "CALIBRATION",
+  "missionId": "s12m559",
+  "outOfBand": false,
+  "poolHash": "ab2795277d002dff177f63d410e917e12373ca7609919e823bd7690cdce276ae",
+  "sample": {
+    "games": 64,
+    "shots": {
+      "p10": 11,
+      "p35": 18,
+      "p50": 18,
+      "p70": 19,
+      "p90": 20
+    },
+    "wins": 32
+  },
+  "thresholds": {
+    "three": 18,
+    "two": 19
+  },
+  "tuning": {
+    "adjustments": 6,
+    "admiralWeapons": [
+      "SONAR",
+      "RECON",
+      "DECOY",
+      "TORPEDO",
+      "REPAIR",
+      "CROSS_SHELL"
+    ],
+    "blunder": 0,
+    "budgetFactorPermille": null,
+    "followUpMiss": 0,
+    "hardClearPermille": null,
+    "measurements": 7,
+    "minFreighters": 3,
+    "surviveRounds": 12,
+    "tier": "HARD",
+    "weaponDelay": 0,
+    "winPermille": 500
+  },
+  "variantHash": "ea86f996af55bef939e2a411672a2b9186556ee0af3494275a0977c974a5cad1",
+  "witness": {
+    "actions": [
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"SONAR\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":4,\"col\":5}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"RECON\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.LineTarget\",\"isRow\":false,\"index\":2,\"fromStart\":true}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"RECON\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.LineTarget\",\"isRow\":false,\"index\":0,\"fromStart\":true}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"SONAR\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":1,\"col\":1}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":4}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":4,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":5,\"col\":5}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":4,\"col\":9}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":5,\"col\":5}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":1,\"col\":1}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":5}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":0}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Repair\",\"cell\":{\"row\":3,\"col\":5}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":5}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":9}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":7,\"col\":0}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":1,\"col\":5}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":6,\"col\":1}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":2,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Repair\",\"cell\":{\"row\":2,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":2,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":5,\"col\":1}}"
+    ],
+    "decoys": [
+      "F9"
+    ],
+    "enemyLayout": 0,
+    "finalHash": "6249c6c9fc3bdd01",
+    "firstPlayer": 1,
+    "seedHex": "eccaa1e10438e508"
+  }
+}

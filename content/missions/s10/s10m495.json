@@ -1,0 +1,130 @@
+{
+  "family": "puzzle-10-t3",
+  "id": "s10m495",
+  "ordinal": 495,
+  "sea": 10,
+  "tags": [
+    "ISLANDS"
+  ],
+  "tutorial": null,
+  "type": "PUZZLE",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": null,
+        "blunder": 260,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": null,
+      "levelSeed": 5141040632127226501,
+      "puzzleId": "enigma-10-easy-89d09ae372e00ecb-0",
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": null,
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": null,
+      "weapons": {}
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": null,
+        "blunder": 30,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": null,
+      "levelSeed": -1833905131774955164,
+      "puzzleId": "enigma-10-hard-e326e4ad22c3c588-0",
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": null,
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": null,
+      "weapons": {}
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": null,
+        "blunder": 137,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": null,
+      "levelSeed": 5157449998882679373,
+      "puzzleId": "enigma-10-medium-2e1514bd37c9f7a0-1",
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": null,
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": null,
+      "weapons": {}
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "family": "salvo-islands",
+  "id": "s10m482",
+  "ordinal": 482,
+  "sea": 10,
+  "tags": [
+    "ISLANDS",
+    "TIMED",
+    "SALVO",
+    "SCHOOL",
+    "SONAR",
+    "TORPEDO",
+    "RECON",
+    "CROSS",
+    "DECOY",
+    "REPAIR"
+  ],
+  "tutorial": null,
+  "type": "DUEL",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 252,
+        "followUpMiss": 450,
+        "tier": "EASY",
+        "weaponDelay": 1
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s10m482-E",
+      "levelSeed": -2701010912970584571,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": true,
+        "shipsMayTouch": false,
+        "shotClockSeconds": 8,
+        "terrain": "archipelago-corridor-s10m482",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 65,
+        "two": 73
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR",
+          "CROSS_SHELL"
+        ],
+        "blunder": 280,
+        "followUpMiss": 450,
+        "tier": "HARD",
+        "weaponDelay": 1
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s10m482-H",
+      "levelSeed": 567402022727322210,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": true,
+        "shipsMayTouch": false,
+        "shotClockSeconds": 4,
+        "terrain": "archipelago-corridor-s10m482",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 65,
+        "two": 70
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR"
+        ],
+        "blunder": 131,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": 1
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s10m482-M",
+      "levelSeed": 2435075163971920335,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SCHOOL",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": true,
+        "shipsMayTouch": false,
+        "shotClockSeconds": 6,
+        "terrain": "archipelago-corridor-s10m482",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 63,
+        "two": 68
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    }
+  }
+}

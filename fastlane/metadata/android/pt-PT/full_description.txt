@@ -1,0 +1,36 @@
+O Night Fleet é uma batalha naval offline para Android. Comandas a tua frota contra doze almirantes, cada um com o seu estilo, em doze mares.
+
+CAMPANHA
+- Doze mares com 50 missões cada: 600 missões no total, cada uma em Fácil, Médio ou Difícil.
+- Duelos, caças, comboios e batalhas contra chefes, com um almirante à espera no fim de cada mar.
+- Almirantes com personalidade. A IA dos adversários é justa e determinística: nunca vê a tua frota, e a mesma posição dá sempre a mesma resposta.
+- Enigmas do farol: grelhas de lógica com os números das linhas e das colunas, resolvidas por raciocínio e nunca por adivinhação. Cada enigma tem uma única solução provada.
+- Estrelas por terminar com poucos tiros, patentes, diário de bordo das batalhas e conquistas.
+
+REGRAS E ARMAS
+- Tabuleiros clássicos de 10×10, e grelhas de 8×8 a 12×12.
+- Ilhas e recifes, salvas, regras da escola com hidroaviões, submarinos que mergulham, nevoeiro, navios que se movem e minas.
+- As regras podem ser combinadas no jogo livre.
+- Seis armas especiais: sonar, torpedo, reconhecimento aéreo, bombardeamento em cruz, isco e reparação. Carregam-se ao afundar navios inimigos; nunca se compram.
+
+MODOS
+- Desafio diário: um enigma novo e uma caça nova todos os dias, em cada dificuldade.
+- Duelo a dois no mesmo telemóvel, com cortina de privacidade entre os turnos.
+- Jogo livre com o adversário, o nível, a grelha e as regras que escolheres.
+- Enigmas sem fim, resolvidos um a seguir ao outro.
+- Patrulha: uma reserva de tiros partilhada, mar a mar.
+- Torneio dos almirantes: oito almirantes já vencidos, e um duelo perdido acaba-o.
+
+ASPETO E ACESSIBILIDADE
+- Quatro temas visuais: Carta Náutica, Sonar Abissal, Frota de Papel e Holo Tático. Mudas nas Definições quando quiseres.
+- Paletas para daltonismo, e marcas que usam a forma além da cor.
+- Descrições para leitores de ecrã das coordenadas e dos resultados.
+- Movimento reduzido, texto maior e opção para confirmar cada tiro.
+- Inglês e português europeu, à escolha na app.
+
+PRIVACIDADE
+- Sem permissão de internet. Sem anúncios, contas, análises de utilização nem rastreio.
+- A única permissão é a vibração, para os impactos.
+- O teu progresso fica no telemóvel, e podes exportá-lo e importá-lo tu próprio.
+
+Código-fonte e licenças: MIT para o código, licença SIL Open Font para as fontes.

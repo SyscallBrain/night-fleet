@@ -1,0 +1,11 @@
+{
+  "admiralId": "captain-frost",
+  "introCards": [
+    "intro.sonar",
+    "intro.timed"
+  ],
+  "musicTrack": "ice-pads",
+  "nameKey": "sea.s04.name",
+  "number": 4,
+  "weather": "aurora"
+}

@@ -1,0 +1,139 @@
+{
+  "family": "hunt-practice",
+  "id": "s01m008",
+  "ordinal": 8,
+  "sea": 1,
+  "tags": [
+    "ISLANDS"
+  ],
+  "tutorial": "tutorial.training",
+  "type": "HUNT",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 404,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s01m008-E",
+      "levelSeed": 9140267649150901308,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "TUTORIAL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s01m008",
+        "width": 8
+      },
+      "shotBudget": 37,
+      "stars": {
+        "three": 27,
+        "two": 33
+      },
+      "weapons": {}
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 111,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s01m008-H",
+      "levelSeed": 713147862570707384,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "TUTORIAL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s01m008",
+        "width": 8
+      },
+      "shotBudget": 29,
+      "stars": {
+        "three": 23,
+        "two": 27
+      },
+      "weapons": {}
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 248,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s01m008-M",
+      "levelSeed": -5509363381112902909,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "TUTORIAL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s01m008",
+        "width": 8
+      },
+      "shotBudget": 33,
+      "stars": {
+        "three": 25,
+        "two": 30
+      },
+      "weapons": {}
+    }
+  }
+}

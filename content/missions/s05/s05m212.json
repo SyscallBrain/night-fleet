@@ -1,0 +1,196 @@
+{
+  "family": "reef-maze",
+  "id": "s05m212",
+  "ordinal": 212,
+  "sea": 5,
+  "tags": [
+    "REEFS",
+    "SONAR",
+    "RECON"
+  ],
+  "tutorial": null,
+  "type": "DUEL",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 339,
+        "followUpMiss": 675,
+        "tier": "EASY",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s05m212-E",
+      "levelSeed": -3158842964067065213,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s05m212",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 54,
+        "two": 60
+      },
+      "weapons": {
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON"
+        ],
+        "blunder": 440,
+        "followUpMiss": 825,
+        "tier": "HARD",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s05m212-H",
+      "levelSeed": -9126729705552370003,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s05m212",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 47,
+        "two": 52
+      },
+      "weapons": {
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 197,
+        "followUpMiss": 675,
+        "tier": "MEDIUM",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s05m212-M",
+      "levelSeed": 1459092809987608004,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s05m212",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 51,
+        "two": 57
+      },
+      "weapons": {
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    }
+  }
+}

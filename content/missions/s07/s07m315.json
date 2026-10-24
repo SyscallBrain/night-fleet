@@ -1,0 +1,252 @@
+{
+  "family": "convoy-decoy",
+  "id": "s07m315",
+  "ordinal": 315,
+  "sea": 7,
+  "tags": [
+    "ISLANDS",
+    "MINES",
+    "SONAR",
+    "RECON",
+    "DECOY"
+  ],
+  "tutorial": null,
+  "type": "CONVOY",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 1,
+        "surviveRounds": 44
+      },
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s07m315-E",
+      "levelSeed": 6572945222226557579,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          [
+            "B4",
+            "B6",
+            "G8",
+            "I10"
+          ]
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s07m315",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 43,
+        "two": 43
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 3,
+        "surviveRounds": 20
+      },
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s07m315-H",
+      "levelSeed": 2661871371103835835,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          [
+            "I1",
+            "J4",
+            "I5",
+            "D6",
+            "B7"
+          ]
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s07m315",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 19,
+        "two": 19
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 2,
+        "surviveRounds": 28
+      },
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s07m315-M",
+      "levelSeed": 240828975363093728,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          [
+            "C3",
+            "D7",
+            "A8",
+            "F9"
+          ]
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s07m315",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 27,
+        "two": 28
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    }
+  }
+}

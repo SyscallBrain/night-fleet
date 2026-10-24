@@ -1,0 +1,196 @@
+{
+  "family": "archipelago-corridor",
+  "id": "s05m236",
+  "ordinal": 236,
+  "sea": 5,
+  "tags": [
+    "ISLANDS",
+    "SONAR",
+    "RECON"
+  ],
+  "tutorial": null,
+  "type": "DUEL",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 361,
+        "followUpMiss": 600,
+        "tier": "EASY",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s05m236-E",
+      "levelSeed": -7019598079665674069,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s05m236",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 54,
+        "two": 61
+      },
+      "weapons": {
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON"
+        ],
+        "blunder": 440,
+        "followUpMiss": 900,
+        "tier": "HARD",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s05m236-H",
+      "levelSeed": 1817408157223972825,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s05m236",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 46,
+        "two": 54
+      },
+      "weapons": {
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 214,
+        "followUpMiss": 600,
+        "tier": "MEDIUM",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s05m236-M",
+      "levelSeed": 2078423908245692176,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "archipelago-corridor-s05m236",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 48,
+        "two": 54
+      },
+      "weapons": {
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    }
+  }
+}

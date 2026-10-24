@@ -1,0 +1,307 @@
+{
+  "family": "hunt-school",
+  "id": "s11m508",
+  "ordinal": 508,
+  "sea": 11,
+  "tags": [
+    "REEFS",
+    "FOG",
+    "LARGE",
+    "SONAR",
+    "TORPEDO",
+    "RECON",
+    "CROSS",
+    "DECOY",
+    "REPAIR"
+  ],
+  "tutorial": null,
+  "type": "HUNT",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 167,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s11m508-E",
+      "levelSeed": -1785735981248453125,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "LARGE",
+        "fog": {
+          "missFadeTurns": 4
+        },
+        "height": 12,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s11m508",
+        "width": 12
+      },
+      "shotBudget": 93,
+      "stars": {
+        "three": 78,
+        "two": 85
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR",
+          "CROSS_SHELL"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s11m508-H",
+      "levelSeed": -9122711615128074132,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "LARGE",
+        "fog": {
+          "missFadeTurns": 4
+        },
+        "height": 12,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s11m508",
+        "width": 12
+      },
+      "shotBudget": 82,
+      "stars": {
+        "three": 74,
+        "two": 79
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR",
+          "CROSS_SHELL"
+        ],
+        "blunder": 66,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": null
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s11m508-M",
+      "levelSeed": 7164237955335556041,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "LARGE",
+        "fog": {
+          "missFadeTurns": 4
+        },
+        "height": 12,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s11m508",
+        "width": 12
+      },
+      "shotBudget": 88,
+      "stars": {
+        "three": 77,
+        "two": 83
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    }
+  }
+}

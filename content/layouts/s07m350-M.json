@@ -1,0 +1,104 @@
+{
+  "fleet": "CLASSIC",
+  "id": "s07m350-M",
+  "layouts": [
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 7,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 9,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 3,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 9,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 7,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 7,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 7,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 2,
+        "ship": "DESTROYER"
+      }
+    ]
+  ],
+  "terrain": "reef-maze-s07m350",
+  "terrainHash": "cad22adc241550ab8b2a2cb89b23fe9b6b0b13db743135314e0be1cfcc39c9cb"
+}

@@ -1,0 +1,139 @@
+{
+  "family": "reef-maze",
+  "id": "s03m133",
+  "ordinal": 133,
+  "sea": 3,
+  "tags": [
+    "REEFS"
+  ],
+  "tutorial": null,
+  "type": "DUEL",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 415,
+        "followUpMiss": 450,
+        "tier": "EASY",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s03m133-E",
+      "levelSeed": 6610503738301654160,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SMALL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s03m133",
+        "width": 8
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 33,
+        "two": 36
+      },
+      "weapons": {}
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 320,
+        "followUpMiss": 900,
+        "tier": "HARD",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s03m133-H",
+      "levelSeed": -4856518992665598124,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SMALL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s03m133",
+        "width": 8
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 29,
+        "two": 32
+      },
+      "weapons": {}
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [],
+        "blunder": 256,
+        "followUpMiss": 450,
+        "tier": "MEDIUM",
+        "weaponDelay": 3
+      },
+      "calibrated": true,
+      "convoy": null,
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s03m133-M",
+      "levelSeed": -5472128984102988917,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [],
+          []
+        ],
+        "fleet": "SMALL",
+        "fog": null,
+        "height": 8,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "reef-maze-s03m133",
+        "width": 8
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 29,
+        "two": 33
+      },
+      "weapons": {}
+    }
+  }
+}

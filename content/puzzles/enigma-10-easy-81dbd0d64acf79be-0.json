@@ -1,0 +1,63 @@
+{
+  "colCounts": [
+    1,
+    4,
+    1,
+    2,
+    2,
+    0,
+    2,
+    2,
+    0,
+    6
+  ],
+  "fleet": [
+    4,
+    3,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "givens": {
+    "13": "END_W",
+    "17": "WATER",
+    "21": "MIDDLE",
+    "24": "WATER",
+    "27": "WATER",
+    "31": "SHIP",
+    "36": "WATER",
+    "4": "WATER",
+    "43": "WATER",
+    "49": "WATER",
+    "6": "WATER",
+    "72": "END_W",
+    "74": "END_E",
+    "76": "SHIP",
+    "80": "WATER",
+    "89": "MIDDLE",
+    "93": "WATER",
+    "94": "WATER",
+    "97": "WATER"
+  },
+  "height": 10,
+  "id": "enigma-10-easy-81dbd0d64acf79be-0",
+  "islands": [],
+  "rowCounts": [
+    1,
+    4,
+    2,
+    1,
+    1,
+    0,
+    2,
+    5,
+    2,
+    2
+  ],
+  "width": 10
+}

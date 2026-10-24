@@ -1,0 +1,11 @@
+{
+  "admiralId": "corsair-wolf",
+  "introCards": [
+    "intro.convoy",
+    "intro.decoy"
+  ],
+  "musicTrack": "distant-drums",
+  "nameKey": "sea.s07.name",
+  "number": 7,
+  "weather": "light-rain"
+}

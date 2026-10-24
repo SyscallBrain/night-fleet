@@ -1,0 +1,100 @@
+{
+  "admirals": [
+    {
+      "id": "lighthouse-keeper-iris",
+      "nameKey": "admiral.lighthouse-keeper-iris.name",
+      "number": 1,
+      "placementStyle": "SPREAD",
+      "search": "RANDOM_PATIENT",
+      "weaponPolicy": "RARE_SONAR"
+    },
+    {
+      "id": "commodore-haze",
+      "nameKey": "admiral.commodore-haze.name",
+      "number": 2,
+      "placementStyle": "EDGES",
+      "search": "CHECKERBOARD",
+      "weaponPolicy": "LATE_SONAR"
+    },
+    {
+      "id": "admiral-coral",
+      "nameKey": "admiral.admiral-coral.name",
+      "number": 3,
+      "placementStyle": "NEAR_ISLANDS",
+      "search": "ISLANDS_FIRST",
+      "weaponPolicy": "MODERATE"
+    },
+    {
+      "id": "captain-frost",
+      "nameKey": "admiral.captain-frost.name",
+      "number": 4,
+      "placementStyle": "CENTRE",
+      "search": "CENTRE_SPIRAL",
+      "weaponPolicy": "EARLY_SONAR"
+    },
+    {
+      "id": "sapper-iron",
+      "nameKey": "admiral.sapper-iron.name",
+      "number": 5,
+      "placementStyle": "CLUSTER",
+      "search": "EDGES_FIRST",
+      "weaponPolicy": "RECON_DEFENSIVE"
+    },
+    {
+      "id": "master-atoll",
+      "nameKey": "admiral.master-atoll.name",
+      "number": 6,
+      "placementStyle": "CLUSTER",
+      "search": "DIAGONALS",
+      "weaponPolicy": "MODERATE"
+    },
+    {
+      "id": "corsair-wolf",
+      "nameKey": "admiral.corsair-wolf.name",
+      "number": 7,
+      "placementStyle": "CLUSTER",
+      "search": "AGGRESSIVE",
+      "weaponPolicy": "DECOY_AND_TORPEDO_EARLY"
+    },
+    {
+      "id": "sargasso-witch",
+      "nameKey": "admiral.sargasso-witch.name",
+      "number": 8,
+      "placementStyle": "SPREAD",
+      "search": "DENSITY",
+      "weaponPolicy": "ALL_EARLY"
+    },
+    {
+      "id": "captain-shade",
+      "nameKey": "admiral.captain-shade.name",
+      "number": 9,
+      "placementStyle": "BALANCED",
+      "search": "CHANGES_MID_BATTLE",
+      "weaponPolicy": "REPAIR"
+    },
+    {
+      "id": "admiral-tempest",
+      "nameKey": "admiral.admiral-tempest.name",
+      "number": 10,
+      "placementStyle": "SPREAD",
+      "search": "DENSITY_BURSTS",
+      "weaponPolicy": "CROSS_AND_SALVO"
+    },
+    {
+      "id": "the-leviathan",
+      "nameKey": "admiral.the-leviathan.name",
+      "number": 11,
+      "placementStyle": "EDGES",
+      "search": "DENSITY_NEAR_PERFECT",
+      "weaponPolicy": "ALL_OPTIMAL"
+    },
+    {
+      "id": "grand-admiral-nox",
+      "nameKey": "admiral.grand-admiral-nox.name",
+      "number": 12,
+      "placementStyle": "BALANCED",
+      "search": "DENSITY",
+      "weaponPolicy": "ALL"
+    }
+  ]
+}

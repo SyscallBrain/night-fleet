@@ -1,0 +1,32 @@
+# Draft of the fdroiddata recipe for Night Fleet. The recipe that F-Droid uses lives in fdroiddata.
+# Description, icon, screenshots and changelogs come from fastlane/metadata/android/ in the repository.
+
+Categories:
+  - Games
+License: MIT
+AuthorName: Tiago Correia
+SourceCode: https://github.com/SyscallBrain/night-fleet
+IssueTracker: https://github.com/SyscallBrain/night-fleet/issues
+Changelog: https://github.com/SyscallBrain/night-fleet/releases
+
+AutoName: Night Fleet
+
+RepoType: git
+Repo: https://github.com/SyscallBrain/night-fleet.git
+# The release APK attached to the GitHub release of tag v<versionName>, built by .github/workflows/release.yml.
+Binaries: https://github.com/SyscallBrain/night-fleet/releases/download/v%v/NightFleet-v%v.apk
+
+Builds:
+  - versionName: 1.0.0          # app/build.gradle.kts: versionName
+    versionCode: 1              # app/build.gradle.kts: versionCode (changelogs/1.txt in en-US and pt-PT)
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AllowedAPKSigningKeys: 2b198b43d2e1b6cf7b95a57db58c3f515b453621b794aa6bca5a0cbd6d405662
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1

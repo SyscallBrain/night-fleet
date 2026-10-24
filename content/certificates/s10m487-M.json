@@ -1,0 +1,75 @@
+{
+  "aiVersion": 3,
+  "contentVersion": 1,
+  "difficulty": "MEDIUM",
+  "engineVersion": 1,
+  "id": "s10m487-M",
+  "kind": "CALIBRATION",
+  "missionId": "s10m487",
+  "outOfBand": false,
+  "poolHash": "634965b6969e5d035e1af86d411a6fbe183ec8ffb4d743b29170765d38567e39",
+  "sample": {
+    "games": 64,
+    "shots": {
+      "p10": 49,
+      "p35": 58,
+      "p50": 61,
+      "p70": 64,
+      "p90": 66
+    },
+    "wins": 52
+  },
+  "thresholds": {
+    "three": 58,
+    "two": 64
+  },
+  "tuning": {
+    "adjustments": 4,
+    "admiralWeapons": null,
+    "blunder": null,
+    "budgetFactorPermille": 1540,
+    "followUpMiss": null,
+    "hardClearPermille": 1000,
+    "measurements": 5,
+    "minFreighters": null,
+    "surviveRounds": null,
+    "tier": null,
+    "weaponDelay": null,
+    "winPermille": 812
+  },
+  "variantHash": "4cb643189fceacc7288d071edd8ff966e8d23dc6997e64cf227ced983e2cc8fc",
+  "witness": {
+    "actions": [
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":2,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":2,\"col\":9}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":7}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":4,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":3,\"col\":9}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":1,\"col\":2}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":1,\"col\":8}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"TORPEDO\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.LineTarget\",\"isRow\":true,\"index\":5,\"fromStart\":true}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":1,\"col\":5}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"SONAR\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":7,\"col\":2}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":4,\"col\":1}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":6,\"col\":9}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"TORPEDO\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.LineTarget\",\"isRow\":true,\"index\":8,\"fromStart\":true}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":9,\"col\":4}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":3,\"col\":4}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":7,\"col\":4}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":6,\"col\":7}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"TORPEDO\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.LineTarget\",\"isRow\":true,\"index\":9,\"fromStart\":true}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Fire\",\"cell\":{\"row\":6,\"col\":4}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":8,\"col\":8}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"TORPEDO\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.LineTarget\",\"isRow\":true,\"index\":7,\"fromStart\":true}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"SONAR\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":1,\"col\":0}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"SONAR\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":9,\"col\":0}}}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.UseWeapon\",\"weapon\":\"CROSS_SHELL\",\"target\":{\"type\":\"pt.tiago.nightfleet.core.weapons.WeaponTarget.CellTarget\",\"cell\":{\"row\":5,\"col\":3}}}"
+    ],
+    "decoys": [],
+    "enemyLayout": 0,
+    "finalHash": "7879a4773a8bab62",
+    "firstPlayer": 0,
+    "seedHex": "835f4e9d9e21d719"
+  }
+}

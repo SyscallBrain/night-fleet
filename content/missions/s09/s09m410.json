@@ -1,0 +1,296 @@
+{
+  "family": "convoy-decoy",
+  "id": "s09m410",
+  "ordinal": 410,
+  "sea": 9,
+  "tags": [
+    "ISLANDS",
+    "DIVING",
+    "SONAR",
+    "TORPEDO",
+    "RECON",
+    "DECOY",
+    "REPAIR"
+  ],
+  "tutorial": null,
+  "type": "CONVOY",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 1,
+        "surviveRounds": 40
+      },
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s09m410-E",
+      "levelSeed": 3334743654048854303,
+      "puzzleId": null,
+      "rules": {
+        "diving": {
+          "submergedRounds": 2,
+          "surfaceRounds": 2
+        },
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s09m410",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 39,
+        "two": 39
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 2,
+        "surviveRounds": 40
+      },
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s09m410-H",
+      "levelSeed": -2052198879257088246,
+      "puzzleId": null,
+      "rules": {
+        "diving": {
+          "submergedRounds": 2,
+          "surfaceRounds": 2
+        },
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s09m410",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 38,
+        "two": 39
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 2,
+        "surviveRounds": 24
+      },
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s09m410-M",
+      "levelSeed": 1292497690301420473,
+      "puzzleId": null,
+      "rules": {
+        "diving": {
+          "submergedRounds": 2,
+          "surfaceRounds": 2
+        },
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "CLASSIC",
+        "fog": null,
+        "height": 10,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-scatter-s09m410",
+        "width": 10
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 23,
+        "two": 23
+      },
+      "weapons": {
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    }
+  }
+}

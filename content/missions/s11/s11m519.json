@@ -1,0 +1,328 @@
+{
+  "family": "convoy-decoy",
+  "id": "s11m519",
+  "ordinal": 519,
+  "sea": 11,
+  "tags": [
+    "ISLANDS",
+    "FOG",
+    "LARGE",
+    "SONAR",
+    "TORPEDO",
+    "RECON",
+    "CROSS",
+    "DECOY",
+    "REPAIR"
+  ],
+  "tutorial": null,
+  "type": "CONVOY",
+  "variants": {
+    "EASY": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "EASY",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 2,
+        "surviveRounds": 52
+      },
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s11m519-E",
+      "levelSeed": -838064171745074994,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "LARGE",
+        "fog": {
+          "missFadeTurns": 4
+        },
+        "height": 12,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-ring-s11m519",
+        "width": 12
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 79,
+        "two": 87
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 2,
+          "max": 2
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 2,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        }
+      }
+    },
+    "HARD": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR",
+          "CROSS_SHELL"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "HARD",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 3,
+        "surviveRounds": 20
+      },
+      "firstPlayer": "ALTERNATE",
+      "layoutPool": "s11m519-H",
+      "levelSeed": 8093538856458903217,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "LARGE",
+        "fog": {
+          "missFadeTurns": 4
+        },
+        "height": 12,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-ring-s11m519",
+        "width": 12
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 32,
+        "two": 35
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    },
+    "MEDIUM": {
+      "ai": {
+        "admiralWeapons": [
+          "SONAR",
+          "RECON",
+          "DECOY",
+          "TORPEDO",
+          "REPAIR",
+          "CROSS_SHELL"
+        ],
+        "blunder": 0,
+        "followUpMiss": 0,
+        "tier": "MEDIUM",
+        "weaponDelay": 0
+      },
+      "calibrated": true,
+      "convoy": {
+        "minFreighters": 2,
+        "surviveRounds": 32
+      },
+      "firstPlayer": "PLAYER",
+      "layoutPool": "s11m519-M",
+      "levelSeed": 47803112292964814,
+      "puzzleId": null,
+      "rules": {
+        "diving": null,
+        "extraShips": [
+          [
+            "FREIGHTER",
+            "FREIGHTER",
+            "FREIGHTER"
+          ],
+          []
+        ],
+        "fleet": "LARGE",
+        "fog": {
+          "missFadeTurns": 4
+        },
+        "height": 12,
+        "maxTurns": 400,
+        "mines": [
+          [],
+          []
+        ],
+        "movingShips": false,
+        "salvo": false,
+        "shipsMayTouch": false,
+        "shotClockSeconds": null,
+        "terrain": "islands-ring-s11m519",
+        "width": 12
+      },
+      "shotBudget": null,
+      "stars": {
+        "three": 51,
+        "two": 59
+      },
+      "weapons": {
+        "CROSS_SHELL": {
+          "earn": [
+            {
+              "n": 4,
+              "on": "EVERY"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        },
+        "DECOY": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "RECON": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "REPAIR": {
+          "earn": [],
+          "initial": 1,
+          "max": 1
+        },
+        "SONAR": {
+          "earn": [
+            {
+              "n": 3,
+              "on": "STREAK"
+            }
+          ],
+          "initial": 1,
+          "max": 2
+        },
+        "TORPEDO": {
+          "earn": [
+            {
+              "n": 1,
+              "on": "SINK"
+            }
+          ],
+          "initial": 0,
+          "max": 1
+        }
+      }
+    }
+  }
+}

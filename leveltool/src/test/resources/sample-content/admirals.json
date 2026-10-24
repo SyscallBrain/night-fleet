@@ -1,0 +1,12 @@
+{
+  "admirals": [
+    {
+      "id": "sample-admiral",
+      "nameKey": "admiral.sample",
+      "number": 1,
+      "placementStyle": "SCATTERED",
+      "search": "RANDOM",
+      "weaponPolicy": "NONE"
+    }
+  ]
+}

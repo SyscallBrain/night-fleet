@@ -1,0 +1,10 @@
+{
+  "admiralId": "master-atoll",
+  "introCards": [
+    "intro.school"
+  ],
+  "musicTrack": "marimba",
+  "nameKey": "sea.s06.name",
+  "number": 6,
+  "weather": "full-moon"
+}

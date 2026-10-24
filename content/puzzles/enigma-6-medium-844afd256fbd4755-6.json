@@ -1,0 +1,38 @@
+{
+  "colCounts": [
+    1,
+    1,
+    2,
+    3,
+    1,
+    2
+  ],
+  "fleet": [
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "givens": {
+    "30": "WATER",
+    "31": "WATER",
+    "35": "WATER",
+    "5": "WATER"
+  },
+  "height": 6,
+  "id": "enigma-6-medium-844afd256fbd4755-6",
+  "islands": [
+    21
+  ],
+  "rowCounts": [
+    3,
+    0,
+    2,
+    2,
+    0,
+    3
+  ],
+  "width": 6
+}

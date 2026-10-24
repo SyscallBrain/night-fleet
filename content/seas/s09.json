@@ -1,0 +1,11 @@
+{
+  "admiralId": "captain-shade",
+  "introCards": [
+    "intro.diving",
+    "intro.repair"
+  ],
+  "musicTrack": "dark-drone",
+  "nameKey": "sea.s09.name",
+  "number": 9,
+  "weather": "snow"
+}

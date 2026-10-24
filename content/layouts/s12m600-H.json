@@ -1,0 +1,140 @@
+{
+  "fleet": "LARGE",
+  "id": "s12m600-H",
+  "layouts": [
+    [
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 2,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 6,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 6,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 2,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 10,
+        "ship": "FREIGHTER"
+      }
+    ],
+    [
+      {
+        "col": 10,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 8,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 8,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 10,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 5,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 1,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 3,
+        "ship": "FREIGHTER"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 7,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 8,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 1,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 11,
+        "rotation": 1,
+        "row": 7,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "FREIGHTER"
+      }
+    ]
+  ],
+  "terrain": "reef-maze-s12m600",
+  "terrainHash": "0bd2e415daef4330e9d9b52ef2c30ef3e43b9bf6d96cb2376d3083b993bb07d0"
+}

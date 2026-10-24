@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_subtitle">Batalha naval · doze mares</string>
+
+    <!-- Ecrã Início. Os valores de exemplo são estáticos até existir o perfil (M8). -->
+    <string name="home_rank_chip">%1$s · %2$d ★</string>
+    <string name="home_sea_label">MAR %1$d DE %2$d</string>
+    <string name="home_sea_progress">Missão %1$d de %2$d · ★ %3$d / %4$d</string>
+    <string name="home_sea_next">%1$s na missão %2$d</string>
+    <string name="home_sea_route">Rota: missão %1$d de %2$d</string>
+    <string name="home_continue">Continuar</string>
+    <string name="home_continue_caption">Missão %1$d · %2$s</string>
+    <string name="home_row_daily">Desafio diário</string>
+    <string name="home_row_daily_caption">Hoje: enigma %1$s · caça %2$s</string>
+    <string name="home_row_duel">Duelo a dois</string>
+    <string name="home_row_duel_caption">Passa o telemóvel, com cortina</string>
+    <string name="home_row_free">Jogo livre</string>
+    <string name="home_row_free_caption">Mares vazios, regras à escolha</string>
+    <string name="home_row_more">Mais modos</string>
+    <string name="home_row_more_caption">Enigmas sem fim, patrulha, torneio</string>
+    <string name="home_grid_logbook">Diário de bordo</string>
+    <string name="home_grid_settings">Definições</string>
+
+    <!-- Seletor de tema provisório no Início (TODO(M8): mover para as Definições). -->
+    <string name="theme_chart">Carta Náutica</string>
+    <string name="theme_sonar">Sonar Abissal</string>
+    <string name="theme_paper">Frota de Papel</string>
+    <string name="theme_holo">Holo Tático</string>
+
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Médio</string>
+    <string name="difficulty_hard">Difícil</string>
+
+    <!-- Galeria de tabuleiros (só para depuração, TODO(M6): remover a entrada). -->
+    <string name="gallery_title">Galeria de tabuleiros</string>
+    <string name="gallery_back">Voltar</string>
+    <string name="gallery_hint">Só para depuração. Mantém premido o nome no Início para abrir este ecrã.</string>
+    <string name="gallery_section_theme">Tema</string>
+    <string name="gallery_reduced">Movimento reduzido (forçado)</string>
+    <string name="gallery_section_enemy">Mar inimigo, 10 × 10</string>
+    <string name="gallery_last_tap">Último toque: %1$s</string>
+    <string name="gallery_section_effects">Efeitos</string>
+    <string name="gallery_effect_splash">Salpico</string>
+    <string name="gallery_effect_explosion">Explosão</string>
+    <string name="gallery_effect_sink">Afundar</string>
+    <string name="gallery_effect_sonar">Pulso de sonar</string>
+    <string name="gallery_effect_torpedo">Torpedo</string>
+    <string name="gallery_effect_recon">Reconhecimento</string>
+    <string name="gallery_effect_cross">Cruz</string>
+    <string name="gallery_effect_mine">Clarão de mina</string>
+    <string name="gallery_effect_shake">Abanão (afundado)</string>
+    <string name="gallery_section_weather">Tempo (fora da grelha)</string>
+    <string name="gallery_weather_calm">Calmo</string>
+    <string name="gallery_weather_rain">Chuva</string>
+    <string name="gallery_weather_fog">Nevoeiro</string>
+    <string name="gallery_weather_aurora">Aurora</string>
+    <string name="gallery_weather_snow">Neve</string>
+    <string name="gallery_weather_storm">Tempestade</string>
+    <string name="gallery_weather_algae">Algas</string>
+    <string name="gallery_weather_stars">Estrelas</string>
+    <string name="gallery_weather_deep">Profundidade</string>
+    <string name="gallery_weather_gulls">Gaivotas</string>
+    <string name="gallery_weather_moon">Lua</string>
+    <string name="gallery_section_own">Mar próprio (mini-mar)</string>
+    <string name="gallery_own_note">122 dp de largura, sem coordenadas, intervalos de 1 dp. Os acertos e os cascos afundados ficam no mar próprio.</string>
+    <string name="gallery_section_sizes">Tamanhos</string>
+    <string name="gallery_size_label">%1$d × %1$d</string>
+    <!-- Home row opens the temporary puzzle chooser (TODO(M8): campaign and Endless entries replace it). -->
+    <string name="puzzle_entry_title">Enigmas sem fim</string>
+    <string name="puzzle_entry_size">Tabuleiro</string>
+    <string name="puzzle_entry_grade">Dificuldade</string>
+    <string name="puzzle_entry_size_option">%1$d × %1$d</string>
+    <string name="puzzle_entry_start">Começar</string>
+    <string name="puzzle_entry_resume">Retomar o guardado (%1$d × %1$d)</string>
+    <string name="puzzle_entry_cancel">Cancelar</string>
+
+    <!-- Ecrã Enigma do farol (DESIGN secção 5). -->
+    <string name="puzzle_title">Enigma do farol</string>
+    <string name="puzzle_subtitle">%1$d × %2$d · %3$s</string>
+    <string name="puzzle_fleet_label">Frota</string>
+    <string name="puzzle_fleet_count">%1$d/%2$d</string>
+    <plurals name="puzzle_fleet_group_label">
+        <item quantity="one">Navios de %1$d casas: %2$d de %3$d colocados</item>
+        <item quantity="other">Navios de %1$d casas: %2$d de %3$d colocados</item>
+
+        <item quantity="many">Navios de %1$d casas: %2$d de %3$d colocados</item>
+    </plurals>
+    <string name="puzzle_legend_empty">Por marcar</string>
+    <string name="puzzle_legend_water">Água</string>
+    <string name="puzzle_legend_ship">Navio</string>
+    <string name="puzzle_instructions">Toca numa casa para marcar água e depois navio. Mantém premido e arrasta para pintar água. Os números contam os navios de cada linha e coluna.</string>
+    <plurals name="puzzle_hint">
+        <item quantity="one">Dica (%1$d restante)</item>
+        <item quantity="other">Dica (%1$d restantes)</item>
+
+        <item quantity="many">Dica (%1$d restantes)</item>
+    </plurals>
+    <string name="puzzle_verify">Verificar</string>
+    <string name="puzzle_fill">Encher água</string>
+    <string name="puzzle_undo">Desfazer</string>
+    <string name="puzzle_restart">Recomeçar</string>
+    <string name="puzzle_board_label">Tabuleiro do enigma, %1$d por %2$d</string>
+    <string name="puzzle_loading">A preparar o enigma…</string>
+    <string name="puzzle_failed">Não foi possível preparar um enigma. Volta atrás e tenta de novo.</string>
+    <string name="puzzle_no_saved">Não há enigma guardado.</string>
+    <string name="puzzle_back">Voltar</string>
+
+    <!-- Linha de mensagens: avisos do motor do ecrã. -->
+    <plurals name="puzzle_notice_filled">
+        <item quantity="one">Encheste %1$d casa com água.</item>
+        <item quantity="other">Encheste %1$d casas com água.</item>
+
+        <item quantity="many">Encheste %1$d casas com água.</item>
+    </plurals>
+    <string name="puzzle_notice_nothing_to_fill">Ainda não há nenhuma linha completa para encher.</string>
+    <string name="puzzle_notice_no_hints_left">Já não há dicas neste enigma.</string>
+    <string name="puzzle_notice_no_hint">A lógica ainda não tem nada novo para dizer.</string>
+    <string name="puzzle_notice_verify_clean">Tudo o que marcaste até agora está certo.</string>
+    <plurals name="puzzle_notice_verify_errors">
+        <item quantity="one">%1$d casa está marcada como errada (com contorno).</item>
+        <item quantity="other">%1$d casas estão marcadas como erradas (com contorno).</item>
+
+        <item quantity="many">%1$d casas estão marcadas como erradas (com contorno).</item>
+    </plurals>
+    <string name="puzzle_notice_restarted">Enigma recomeçado.</string>
+    <string name="puzzle_notice_solved">Resolvido.</string>
+
+    <!-- Razões das dicas (chaves PuzzleReason do solucionador). -->
+    <string name="puzzle_reason_line_full">Esta linha já tem todos os navios: o resto é água.</string>
+    <string name="puzzle_reason_line_needs_all">Esta linha só tem casas livres para os navios que faltam: todas são navio.</string>
+    <string name="puzzle_reason_diagonal_of_ship">Os navios não se tocam nas diagonais: os cantos à volta de um navio são água.</string>
+    <string name="puzzle_reason_side_of_ship">Um navio nesta direção não cresce para os lados: as casas ao lado são água.</string>
+    <string name="puzzle_reason_given_shape">A pista fixa a forma deste navio.</string>
+    <string name="puzzle_reason_fleet_fit">O navio maior que falta só cabe aqui.</string>
+    <string name="puzzle_reason_ship_closed">Este navio está completo: as casas à volta são água.</string>
+    <string name="puzzle_reason_line_fit">Os navios que faltam nesta linha só cabem nestas casas.</string>
+    <string name="puzzle_reason_contradiction">Se esta casa fosse navio, o enigma ficava impossível: é água.</string>
+    <string name="puzzle_reason_wrong_mark">Esta marca está errada: mostra-se a casa correta.</string>
+
+    <!-- Folha de resolução. -->
+    <string name="puzzle_solved_title">Farol aceso</string>
+    <string name="puzzle_stars">%1$d de 3 estrelas</string>
+    <string name="puzzle_time">Tempo %1$s</string>
+    <string name="puzzle_clock">%1$02d:%2$02d</string>
+    <string name="puzzle_aids">Ajudas usadas: %1$d</string>
+    <string name="puzzle_next">Enigma seguinte</string>
+
+    <!-- Acessibilidade: etiquetas das casas e ações personalizadas (PLAN 13). -->
+    <string name="puzzle_cell">Linha %1$d, coluna %2$d, %3$s%4$s, %5$s, %6$s</string>
+    <string name="puzzle_cell_empty">por marcar</string>
+    <string name="puzzle_cell_water">água</string>
+    <string name="puzzle_cell_ship">navio</string>
+    <string name="puzzle_cell_island">ilha</string>
+    <string name="puzzle_cell_fixed">, pista fixa</string>
+    <plurals name="puzzle_row_needs">
+        <item quantity="one">a linha precisa de mais %1$d</item>
+        <item quantity="other">a linha precisa de mais %1$d</item>
+
+        <item quantity="many">a linha precisa de mais %1$d</item>
+    </plurals>
+    <string name="puzzle_row_complete">linha completa</string>
+    <plurals name="puzzle_row_over">
+        <item quantity="one">a linha tem %1$d a mais</item>
+        <item quantity="other">a linha tem %1$d a mais</item>
+
+        <item quantity="many">a linha tem %1$d a mais</item>
+    </plurals>
+    <plurals name="puzzle_col_needs">
+        <item quantity="one">a coluna precisa de mais %1$d</item>
+        <item quantity="other">a coluna precisa de mais %1$d</item>
+
+        <item quantity="many">a coluna precisa de mais %1$d</item>
+    </plurals>
+    <string name="puzzle_col_complete">coluna completa</string>
+    <plurals name="puzzle_col_over">
+        <item quantity="one">a coluna tem %1$d a mais</item>
+        <item quantity="other">a coluna tem %1$d a mais</item>
+
+        <item quantity="many">a coluna tem %1$d a mais</item>
+    </plurals>
+    <string name="puzzle_action_water">Marcar água</string>
+    <string name="puzzle_action_ship">Marcar navio</string>
+    <string name="puzzle_action_clear">Limpar</string>
+
+    <!-- Batalha rápida: ecrã de batalha (M6A; a campanha substitui-a no M8). -->
+    <string name="battle_title">Batalha rápida</string>
+    <string name="battle_subtitle">Frota clássica · %1$s</string>
+    <string name="battle_shots">Tiros %1$d</string>
+    <string name="battle_pause">Pausa</string>
+    <string name="battle_turn_yours">A tua vez</string>
+    <string name="battle_turn_admiral">%1$s está a apontar…</string>
+    <string name="battle_log_none">Frota pronta</string>
+    <string name="battle_log_player_miss">%1$s · Água</string>
+    <string name="battle_log_player_hit">%1$s · Acertou!</string>
+    <string name="battle_log_player_sunk">%1$s · Afundado: %2$s</string>
+    <string name="battle_log_admiral_miss">%1$s: %2$s · Água</string>
+    <string name="battle_log_admiral_hit">%1$s: %2$s · Acertou!</string>
+    <string name="battle_log_admiral_sunk">%1$s: %2$s · Afundado: %3$s</string>
+    <string name="battle_enemy_fleet">Frota inimiga</string>
+    <string name="battle_already_fired">Já disparaste aí</string>
+    <string name="battle_skip">Toca para saltar</string>
+
+    <string name="ship_carrier">Porta-aviões</string>
+    <string name="ship_battleship">Couraçado</string>
+    <string name="ship_cruiser">Cruzador</string>
+    <string name="ship_submarine">Submarino</string>
+    <string name="ship_destroyer">Contratorpedeiro</string>
+    <string name="ship_seaplane">Hidroavião</string>
+    <string name="ship_midget_sub">Submarino anão</string>
+    <string name="ship_freighter">Cargueiro</string>
+
+    <string name="pause_title">Em pausa</string>
+    <string name="pause_continue">Continuar</string>
+    <string name="pause_restart">Recomeçar</string>
+    <string name="pause_quick_settings">Definições rápidas</string>
+    <string name="pause_sfx">Efeitos sonoros</string>
+    <string name="pause_music">Música</string>
+    <string name="pause_vibration">Vibração</string>
+    <string name="pause_leave">Sair para o início</string>
+
+    <string name="result_victory">Vitória</string>
+    <string name="result_defeat">Frota afundada</string>
+    <string name="result_defeat_count">Afundaste %1$d de %2$d</string>
+    <plurals name="result_precision">
+        <item quantity="one">Precisão %1$d%% · %2$d tiro</item>
+        <item quantity="other">Precisão %1$d%% · %2$d tiros</item>
+
+        <item quantity="many">Precisão %1$d%% · %2$d tiros</item>
+    </plurals>
+    <plurals name="result_next_star">
+        <item quantity="one">Estrela seguinte: até %1$d tiro</item>
+        <item quantity="other">Estrela seguinte: até %1$d tiros</item>
+
+        <item quantity="many">Estrela seguinte: até %1$d tiros</item>
+    </plurals>
+    <string name="result_three_stars">Três estrelas: o melhor resultado</string>
+    <string name="result_play_again">Jogar de novo</string>
+    <string name="result_retry">Repetir</string>
+    <string name="result_home">Início</string>
+    <string name="result_revealed">Os navios inimigos que sobraram estão visíveis no mar.</string>
+
+    <string name="placement_title">Coloca a tua frota</string>
+    <string name="placement_auto">Automático</string>
+    <string name="placement_formations">Formações</string>
+    <string name="placement_ready">Pronto</string>
+    <string name="placement_back">Voltar</string>
+    <string name="placement_clear">Limpar</string>
+    <string name="placement_hint">Escolhe um navio na doca, toca numa casa para o colocar, toca num navio colocado para o rodar e mantém premido para o devolver à doca.</string>
+    <string name="placement_hint_select">Escolhe um navio e depois toca numa casa do teu mar.</string>
+    <string name="placement_dock">Navios por colocar</string>
+    <string name="placement_dock_done">Todos os navios estão no mar</string>
+    <string name="placement_formation_save">Guardar</string>
+    <string name="placement_formation_load">Carregar</string>
+    <string name="placement_formation_delete">Apagar</string>
+    <string name="placement_formation_slot">Posição %1$d</string>
+    <string name="placement_formation_empty">Vazia</string>
+    <string name="placement_a11y_ship">%1$s, por colocar. Toca duas vezes para o escolher e depois numa casa.</string>
+    <string name="placement_a11y_auto">O automático é a forma mais rápida de colocar a frota toda.</string>
+    <string name="problem_overlap">Os navios não se podem sobrepor.</string>
+    <string name="problem_touching">Os navios não se podem tocar, nem na diagonal.</string>
+    <string name="problem_terrain">Os navios não podem ocupar ilhas nem recifes.</string>
+    <string name="problem_out_of_bounds">Isso está fora do mar.</string>
+    <string name="problem_mine">Não se pode colocar minas aí.</string>
+    <string name="problem_mine_near">Demasiado perto de uma mina.</string>
+    <string name="problem_incomplete">A frota ainda não está completa.</string>
+    <string name="problem_density">A frota ocupa mar demais.</string>
+    <string name="problem_rotation">Essa orientação não existe.</string>
+    <string name="notice_auto_failed">Não encontrei uma disposição. Tenta outra vez.</string>
+    <string name="notice_formation_saved">Formação guardada.</string>
+    <string name="notice_formation_loaded">Formação carregada.</string>
+    <string name="notice_formation_invalid">Esta formação já não cabe neste mar.</string>
+    <string name="notice_formation_full">As cinco posições estão ocupadas. Apaga uma primeiro.</string>
+    <string name="notice_formation_deleted">Formação apagada.</string>
+    <string name="notice_formation_incomplete">Coloca a frota toda antes de guardar.</string>
+    <!-- Tutorial overlay (sea 1, missions 1-10). Step texts: tutorial_m<mission>_s<step>. -->
+    <string name="tutorial_skip">Saltar tutorial</string>
+    <string name="tutorial_tap_to_continue">Toca para continuar</string>
+    <string name="tutorial_skip_title">Saltar o tutorial?</string>
+    <string name="tutorial_skip_body">Não voltas a ver estas dicas.</string>
+    <string name="tutorial_skip_confirm">Saltar</string>
+    <string name="tutorial_skip_keep">Continuar</string>
+    <string name="tutorial_m1_s1">Este é o mar inimigo. Cada casa que tocas é um tiro.</string>
+    <string name="tutorial_m1_s2">Toca na casa D4 para disparar.</string>
+    <string name="tutorial_m1_s3">O anel é água. A marca de lacre é um acerto.</string>
+    <string name="tutorial_m2_s1">Acerta em todas as casas de um navio e ele afunda.</string>
+    <string name="tutorial_m2_s2">Continua a disparar até este navio afundar.</string>
+    <string name="tutorial_m2_s3">A água à volta de um navio afundado marca-se sozinha.</string>
+    <string name="tutorial_m3_s1">Arrasta cada navio para o teu mar.</string>
+    <string name="tutorial_m3_s2">Toca num navio para o rodar.</string>
+    <string name="tutorial_m3_s3">Não sabes onde os pôr? O Automático coloca a frota por ti.</string>
+    <string name="tutorial_m3_s4">Quando todos os navios estiverem colocados, carrega em Pronto.</string>
+    <string name="tutorial_m4_s1">Caça em xadrez: dispara numa casa sim e noutra não.</string>
+    <string name="tutorial_m4_s2">Todo o navio de duas ou mais casas ocupa casas das duas cores, por isso o xadrez encontra-o sempre.</string>
+    <string name="tutorial_m4_s3">Depois de um acerto, afunda esse navio primeiro e depois volta ao xadrez.</string>
+    <string name="tutorial_m5_s1">Agora é o almirante a disparar contra o teu mar. Acompanha o registo do turno.</string>
+    <string name="tutorial_m5_s2">O teu mar mostra onde o almirante acertou e onde falhou.</string>
+    <string name="tutorial_m5_s3">O almirante só conhece as casas onde já disparou. Os outros navios continuam escondidos.</string>
+    <string name="tutorial_m6_s1">As estrelas dependem de quantos tiros precisaste.</string>
+    <string name="tutorial_m6_s2">A precisão são os teus acertos a dividir pelos tiros.</string>
+    <string name="tutorial_m6_s3">Menos tiros dão mais estrelas, por isso pensa antes de disparar.</string>
+    <string name="tutorial_m7_s1">Preso? A Dica do imediato assinala uma boa casa para disparar.</string>
+    <string name="tutorial_m7_s2">Usar uma dica limita a recompensa a duas estrelas.</string>
+    <string name="tutorial_m7_s3">Usa as dicas só quando precisares mesmo.</string>
+    <string name="tutorial_m8_s1">Esta é uma caça: só tu disparas e os tiros são limitados.</string>
+    <string name="tutorial_m8_s2">Afunda toda a frota antes de os tiros acabarem.</string>
+    <string name="tutorial_m8_s3">Vigia o contador e mira nas casas com mais probabilidade de terem um navio.</string>
+    <string name="tutorial_m9_s1">As formações são disposições da frota que podes guardar e reutilizar.</string>
+    <string name="tutorial_m9_s2">Guarda esta disposição como formação para a usares outra vez.</string>
+    <string name="tutorial_m9_s3">As formações guardadas ficam aqui da próxima vez que colocares a frota.</string>
+    <string name="tutorial_m10_s1">O teste final do almirante é uma série à melhor de três.</string>
+    <string name="tutorial_m10_s2">Ganha dois duelos para vencer o almirante. Um empate repete o duelo uma vez.</string>
+    <string name="tutorial_m10_s3">No fim de cada duelo, o resultado mostra como correu.</string>
+
+    <!-- Mechanic intro cards (docs/CONTENT.md section 6). Two sentences per card. -->
+    <string name="intro_got_it">Percebi</string>
+    <string name="intro_kicker">Nova mecânica</string>
+    <string name="intro_manual_title">Manual</string>
+    <string name="intro_lighthouse_puzzle_title">Enigma do farol</string>
+    <string name="intro_lighthouse_puzzle_line1">Preenche a grelha para que cada linha e coluna tenham o número certo de casas de navio e a frota caiba toda.</string>
+    <string name="intro_lighthouse_puzzle_line2">Cada enigma tem uma só solução, por isso nunca precisas de adivinhar.</string>
+    <string name="intro_islands_reefs_title">Ilhas e recifes</string>
+    <string name="intro_islands_reefs_line1">Os navios não podem ficar em ilhas nem em recifes, e o torpedo para numa ilha mas passa por cima de um recife.</string>
+    <string name="intro_islands_reefs_line2">Ilhas e recifes podem ficar encostados a um navio.</string>
+    <string name="intro_sonar_title">Sonar</string>
+    <string name="intro_sonar_line1">O sonar lê a área 3×3 à volta da casa que escolheres e conta as casas de navio inimigas ainda não atingidas.</string>
+    <string name="intro_sonar_line2">Não vê ilhas, recifes nem minas.</string>
+    <string name="intro_shot_clock_title">Contra-relógio</string>
+    <string name="intro_shot_clock_line1">Cada turno tem um limite de tempo: 8 segundos no Fácil, 6 no Médio e 4 no Difícil.</string>
+    <string name="intro_shot_clock_line2">Pausar ou sair da app congela o relógio.</string>
+    <string name="intro_mines_title">Minas</string>
+    <string name="intro_mines_line1">Uma mina não afunda nada, mas acertar numa custa-te o turno seguinte.</string>
+    <string name="intro_mines_line2">As minas nunca ficam ao lado de um navio, para a água automática nunca mentir.</string>
+    <string name="intro_air_recon_title">Reconhecimento aéreo</string>
+    <string name="intro_air_recon_line1">Um avião verifica uma linha ou coluna inteira e diz se há alguma casa de navio ainda não atingida à superfície, iscos incluídos.</string>
+    <string name="intro_air_recon_line2">Não vê submarinos submersos.</string>
+    <string name="intro_school_rules_title">Regras da escola</string>
+    <string name="intro_school_rules_line1">A frota inclui hidroaviões, com um casco em T de quatro casas, e submarinos de uma casa.</string>
+    <string name="intro_school_rules_line2">Estas regras podem combinar-se com as outras.</string>
+    <string name="intro_convoy_title">Escolta de comboio</string>
+    <string name="intro_convoy_line1">Três cargueiros navegam com a tua frota, e têm de ficar suficientes a flutuar durante as rondas indicadas.</string>
+    <string name="intro_convoy_line2">Afundar o inimigo primeiro também dá a vitória, mas perder cargueiros demais, ou a frota toda, acaba a missão.</string>
+    <string name="intro_decoy_title">Isco</string>
+    <string name="intro_decoy_line1">O isco é um navio falso colocado antes da batalha: quando o inimigo o atinge, os destroços são revelados no fim do turno seguinte dele.</string>
+    <string name="intro_decoy_line2">Um isco nunca conta para a frota nem para a vitória.</string>
+    <string name="intro_torpedo_title">Torpedo</string>
+    <string name="intro_torpedo_line1">Um torpedo parte da margem por uma linha ou coluna até acertar num navio, numa ilha ou numa mina.</string>
+    <string name="intro_torpedo_line2">Os recifes não o param, e a mina que ele rebenta não te custa o turno.</string>
+    <string name="intro_diving_subs_title">Submarinos que mergulham</string>
+    <string name="intro_diving_subs_line1">Os submarinos começam à superfície e ficam submersos duas rondas em cada quatro.</string>
+    <string name="intro_diving_subs_line2">Um tiro num submarino submerso só revela um contacto, sem dano.</string>
+    <string name="intro_repair_title">Reparação</string>
+    <string name="intro_repair_line1">Uma vez por batalha, podes reparar uma casa atingida de um navio que ainda flutua, e ela volta a ficar intacta.</string>
+    <string name="intro_repair_line2">O adversário fica a saber que a casa foi reparada e tem de a atingir outra vez.</string>
+    <string name="intro_salvo_title">Salva</string>
+    <string name="intro_salvo_line1">Uma salva dispara um tiro por cada navio teu que ainda flutua, sem contar os iscos, com um mínimo de um.</string>
+    <string name="intro_salvo_line2">Os tiros resolvem-se um a um, pela ordem.</string>
+    <string name="intro_cross_barrage_title">Bombardeamento em cruz</string>
+    <string name="intro_cross_barrage_line1">O bombardeamento em cruz dispara na casa central e nas quatro vizinhas, num total de cinco tiros de uma vez.</string>
+    <string name="intro_cross_barrage_line2">As casas fora do mar ou já disparadas são saltadas, e uma mina custa apenas um turno.</string>
+    <string name="intro_large_grid_title">Mar 12×12</string>
+    <string name="intro_large_grid_line1">O mar tem 12 por 12 casas, por isso a frota tem muito mais sítios onde se esconder.</string>
+    <string name="intro_large_grid_line2">Procura no mar inteiro, em vez de começares sempre por um canto.</string>
+    <string name="intro_fog_title">Nevoeiro</string>
+    <string name="intro_fog_line1">O nevoeiro apaga as tuas marcas de água quatro turnos depois de as fazeres, mas acertos, navios afundados, água automática, contactos e leituras continuam visíveis.</string>
+    <string name="intro_fog_line2">Uma casa esquecida conta como tiro se voltares a disparar nela.</string>
+    <string name="intro_moving_ships_title">Navios que se movem</string>
+    <string name="intro_moving_ships_line1">Uma vez por batalha, cada lado pode mudar um dos seus navios de sítio.</string>
+    <string name="intro_moving_ships_line2">O adversário sabe que houve um movimento, mas não onde, e as marcas antigas ficam porque eram verdadeiras quando foram feitas.</string>
+    <!-- M7: armas, alvos, avisos e recusas -->
+    <string name="battle_weapons_title">Armas</string>
+    <string name="battle_weapon_sonar">Sonar</string>
+    <string name="battle_weapon_sonar_hint">Conta casas de navio numa área 3 × 3</string>
+    <string name="battle_weapon_torpedo">Torpedo</string>
+    <string name="battle_weapon_torpedo_hint">Percorre uma linha ou uma coluna</string>
+    <string name="battle_weapon_recon">Reconhecimento</string>
+    <string name="battle_weapon_recon_hint">Diz se há um navio à superfície numa linha</string>
+    <string name="battle_weapon_cross">Bombardeamento em cruz</string>
+    <string name="battle_weapon_cross_hint">Cinco tiros em cruz</string>
+    <string name="battle_weapon_repair">Reparação</string>
+    <string name="battle_weapon_repair_hint">Repara uma casa atingida, uma vez por batalha</string>
+    <string name="battle_weapon_decoy">Isco</string>
+    <string name="battle_weapon_decoy_hint">Colocado no início da batalha</string>
+    <string name="battle_charges">×%1$d</string>
+    <string name="battle_recharge_sink">Afunda um navio para recarregar</string>
+    <string name="battle_recharge_streak">Acerta %1$d seguidos para recarregar</string>
+    <plurals name="battle_recharge_every">
+        <item quantity="one">Recarrega a cada %1$d turno teu</item>
+        <item quantity="other">Recarrega a cada %1$d turnos teus</item>
+
+        <item quantity="many">Recarrega a cada %1$d turnos teus</item>
+    </plurals>
+    <string name="battle_recharge_none">Esgota-se ao usar</string>
+    <string name="battle_weapon_state_selected">selecionada</string>
+    <string name="battle_weapon_state_ready">pronta</string>
+    <string name="battle_weapon_state_empty">sem carga</string>
+    <string name="battle_move_button">Mover um navio</string>
+    <string name="battle_move_pick">Toca num dos teus navios</string>
+    <string name="battle_move_choose">Escolhe o sentido em que o moves</string>
+    <string name="battle_move_forward_arrow">Avançar →</string>
+    <string name="battle_move_back_arrow">← Recuar</string>
+    <string name="battle_repair_pick">Toca numa casa danificada do teu mar</string>
+    <string name="battle_square_pick">Toca numa casa do mar inimigo</string>
+    <string name="battle_line_pick">Toca numa casa para escolher a linha</string>
+    <string name="battle_line_confirm">Toca outra vez na linha para disparar</string>
+    <string name="battle_axis_row">Linha</string>
+    <string name="battle_axis_column">Coluna</string>
+    <string name="battle_margin_left">Da esquerda</string>
+    <string name="battle_margin_right">Da direita</string>
+    <string name="battle_margin_top">De cima</string>
+    <string name="battle_margin_bottom">De baixo</string>
+    <string name="battle_cancel">Cancelar</string>
+    <plurals name="battle_salvo_header">
+        <item quantity="one">Salva: %1$d tiro · %2$d escolhidos</item>
+        <item quantity="other">Salva: %1$d tiros · %2$d escolhidos</item>
+
+        <item quantity="many">Salva: %1$d tiros · %2$d escolhidos</item>
+    </plurals>
+    <string name="battle_salvo_fire">Disparar salva</string>
+    <string name="battle_salvo_clear">Limpar</string>
+    <plurals name="battle_submerged_chip">
+        <item quantity="one">Submersos · voltam à superfície em %1$d ronda</item>
+        <item quantity="other">Submersos · voltam à superfície em %1$d rondas</item>
+
+        <item quantity="many">Submersos · voltam à superfície em %1$d rondas</item>
+    </plurals>
+    <plurals name="battle_surfaced_chip">
+        <item quantity="one">À superfície · mergulham em %1$d ronda</item>
+        <item quantity="other">À superfície · mergulham em %1$d rondas</item>
+
+        <item quantity="many">À superfície · mergulham em %1$d rondas</item>
+    </plurals>
+    <plurals name="battle_convoy_hud">
+        <item quantity="one">Ronda %1$d de %2$d · %3$d de %4$d cargueiro a flutuar</item>
+        <item quantity="other">Ronda %1$d de %2$d · %3$d de %4$d cargueiros a flutuar</item>
+
+        <item quantity="many">Ronda %1$d de %2$d · %3$d de %4$d cargueiros a flutuar</item>
+    </plurals>
+    <plurals name="notice_sonar">
+        <item quantity="one">Sonar: %1$d casa de navio na área</item>
+        <item quantity="other">Sonar: %1$d casas de navio na área</item>
+
+        <item quantity="many">Sonar: %1$d casas de navio na área</item>
+    </plurals>
+    <string name="notice_recon_present">Reconhecimento: há um navio à superfície nessa linha</string>
+    <string name="notice_recon_empty">Reconhecimento: essa linha está livre</string>
+    <string name="notice_torpedo_blocked">O torpedo bateu numa ilha</string>
+    <string name="notice_mine_player">Mina! Perdes o próximo turno</string>
+    <string name="notice_mine_admiral">O almirante bateu numa mina e perde o próximo turno</string>
+    <string name="notice_skipped_own">Perdes este turno</string>
+    <string name="notice_skipped_admiral">O almirante perde este turno</string>
+    <string name="notice_decoy">Um isco foi revelado</string>
+    <string name="notice_enemy_repaired">O almirante reparou uma casa atingida</string>
+    <string name="notice_enemy_moved">O almirante mudou um navio de sítio</string>
+    <string name="notice_own_moved">Mudaste um navio de sítio</string>
+    <string name="notice_submerged">Contacto: um submarino submerso</string>
+    <string name="notice_dived">Os submarinos mergulharam</string>
+    <string name="notice_surfaced">Os submarinos voltaram à superfície</string>
+    <string name="notice_charge">Carga ganha: %1$s</string>
+    <string name="notice_cross">Bombardeamento em cruz!</string>
+    <string name="refusal_generic">Essa jogada não é permitida</string>
+    <string name="refusal_battle_over">A batalha terminou</string>
+    <string name="refusal_out_of_bounds">Essa casa está fora do mar</string>
+    <string name="refusal_not_a_target">Essa casa não é um alvo</string>
+    <string name="refusal_salvo_size">Escolhe o número de casas que a salva pede</string>
+    <string name="refusal_no_target">Nenhuma casa desse tiro está livre</string>
+    <string name="refusal_weapon_off">Essa arma não está nesta batalha</string>
+    <string name="refusal_no_charge">Essa arma já não tem cargas</string>
+    <string name="refusal_repair_used">A tua reparação já foi usada</string>
+    <string name="refusal_not_repairable">Só se repara uma casa de navio atingida</string>
+    <string name="refusal_move_off">Nesta batalha os navios não se movem</string>
+    <string name="refusal_move_used">Já mudaste um navio nesta batalha</string>
+    <string name="refusal_ship_damaged">Um navio danificado não se pode mover</string>
+    <string name="refusal_move_blocked">Esse navio não pode ir para lá</string>
+    <!-- M7: jogo livre -->
+    <string name="freeplay_title">Jogo livre</string>
+    <string name="freeplay_back">Voltar</string>
+    <string name="freeplay_subtitle">%1$s · %2$s</string>
+    <string name="freeplay_section_opponent">Almirante</string>
+    <string name="freeplay_section_level">Dificuldade</string>
+    <string name="freeplay_section_grid">Grelha</string>
+    <string name="freeplay_section_fleet">Frota</string>
+    <string name="freeplay_section_rules">Regras</string>
+    <string name="freeplay_section_mines">Minas por lado</string>
+    <string name="freeplay_section_weapons">Armas</string>
+    <string name="freeplay_section_clock">Relógio por turno</string>
+    <string name="freeplay_section_starter">Quem começa</string>
+    <string name="freeplay_level_easy">Fácil</string>
+    <string name="freeplay_level_medium">Médio</string>
+    <string name="freeplay_level_hard">Difícil</string>
+    <string name="freeplay_level_relentless">Implacável</string>
+    <string name="freeplay_fleet_classic">Clássica</string>
+    <string name="freeplay_fleet_school">Escola</string>
+    <string name="freeplay_fleet_note">Na grelha 8 × 8 a frota é pequena, e na 12 × 12 é grande.</string>
+    <string name="freeplay_islands">Ilhas</string>
+    <string name="freeplay_salvo">Salva: um tiro por navio a flutuar</string>
+    <string name="freeplay_diving">Submarinos que mergulham</string>
+    <string name="freeplay_fog">Nevoeiro de guerra</string>
+    <string name="freeplay_moving">Navios que se movem</string>
+    <string name="freeplay_starter_player">Tu</string>
+    <string name="freeplay_starter_admiral">Almirante</string>
+    <string name="freeplay_starter_random">Ao acaso</string>
+    <string name="freeplay_grid_label">%1$d × %2$d</string>
+    <string name="freeplay_clock_off">Desligado</string>
+    <string name="freeplay_clock_seconds">%1$d s</string>
+    <string name="freeplay_start">Colocar a frota</string>
+    <!-- M7: duelo a dois -->
+    <string name="duo_title">Duelo a dois</string>
+    <string name="duo_name_first">Primeiro jogador</string>
+    <string name="duo_name_second">Segundo jogador</string>
+    <string name="duo_default_first">Jogador 1</string>
+    <string name="duo_default_second">Jogador 2</string>
+    <string name="duo_names_note">Os nomes ficam só neste telemóvel.</string>
+    <string name="duo_start">Começar o duelo</string>
+    <string name="duo_curtain_turn">Vez de %1$s · passa o telemóvel</string>
+    <string name="duo_curtain_place">%1$s coloca a frota · passa o telemóvel</string>
+    <string name="duo_show_sea">Mostrar o meu mar</string>
+    <string name="duo_placing">%1$s · coloca a tua frota</string>
+    <string name="duo_score">%1$s %2$d · %3$s %4$d · empates %5$d</string>
+    <string name="duo_winner">%1$s ganha</string>
+    <string name="duo_draw">Empate</string>
+    <string name="duo_next_game">Próximo jogo</string>
+    <string name="duo_leave">Sair do duelo</string>
+    <string name="duo_setup_refused">Esta frota não pode ser colocada aqui. Coloca-a outra vez.</string>
+
+    <!-- Admirals: display names (CONTENT section 3). -->
+    <string name="admiral_iris_name">Faroleira Íris</string>
+    <string name="admiral_haze_name">Comodoro Bruma</string>
+    <string name="admiral_coral_name">Almirante Coral</string>
+    <string name="admiral_frost_name">Capitã Geada</string>
+    <string name="admiral_iron_name">Sapador Ferro</string>
+    <string name="admiral_atoll_name">Mestre Atol</string>
+    <string name="admiral_wolf_name">Corsário Lobo</string>
+    <string name="admiral_witch_name">Bruxa dos Sargaços</string>
+    <string name="admiral_shade_name">Capitão Sombra</string>
+    <string name="admiral_tempest_name">Almirante Tormenta</string>
+    <string name="admiral_leviathan_name">O Leviatã</string>
+    <string name="admiral_nox_name">Grande Almirante Nox</string>
+
+    <!-- Admirals: taunts shown in the log, at most once every five turns. Never reveals hidden squares. -->
+    <string name="taunt_iris_1">A luz encontra sempre alguém.</string>
+    <string name="taunt_iris_2">Ainda aí, no escuro?</string>
+    <string name="taunt_iris_3">Eu espero. O farol nunca se cansa.</string>
+    <string name="taunt_haze_1">Sem pressa. O nevoeiro espera.</string>
+    <string name="taunt_haze_2">Já me vês?</string>
+    <string name="taunt_haze_3">Todo o nevoeiro levanta. O teu também.</string>
+    <string name="taunt_coral_1">Os recifes guardam segredos.</string>
+    <string name="taunt_coral_2">Chega mais perto da ilha.</string>
+    <string name="taunt_coral_3">Cada costa esconde alguma coisa.</string>
+    <string name="taunt_frost_1">Frio e exato.</string>
+    <string name="taunt_frost_2">Os teus navios estão muito calados.</string>
+    <string name="taunt_frost_3">O inverno é paciente.</string>
+    <string name="taunt_iron_1">Cuidado onde pões o pé.</string>
+    <string name="taunt_iron_2">Fica no teu canto. Lá é seguro.</string>
+    <string name="taunt_iron_3">Não me apresso. Chego.</string>
+    <string name="taunt_atoll_1">Já viste esta formação?</string>
+    <string name="taunt_atoll_2">Toda a linha tem um fim.</string>
+    <string name="taunt_atoll_3">Linhas paralelas, navios paralelos.</string>
+    <string name="taunt_wolf_1">Os cargueiros são meus.</string>
+    <string name="taunt_wolf_2">Sinto o medo na água.</string>
+    <string name="taunt_wolf_3">Trabalho rápido. Presa rápida.</string>
+    <string name="taunt_witch_1">As algas falam comigo.</string>
+    <string name="taunt_witch_2">O sargaço lembra-se de tudo.</string>
+    <string name="taunt_witch_3">Vem ver o que o mar me mostra.</string>
+    <string name="taunt_shade_1">Nunca me vês chegar.</string>
+    <string name="taunt_shade_2">Já cá estava.</string>
+    <string name="taunt_shade_3">Os teus tiros caem no meu nevoeiro.</string>
+    <string name="taunt_tempest_1">Aguenta a tempestade.</string>
+    <string name="taunt_tempest_2">Mais uma rajada. Baixa a cabeça.</string>
+    <string name="taunt_tempest_3">A tempestade não pede licença.</string>
+    <string name="taunt_leviathan_1">…</string>
+    <string name="taunt_leviathan_2">(um som grave atravessa a água)</string>
+    <string name="taunt_leviathan_3">(o mar responde)</string>
+    <string name="taunt_nox_1">Mostra-me o que aprendeste.</string>
+    <string name="taunt_nox_2">Lembro-me de cada tiro que deste.</string>
+    <string name="taunt_nox_3">Tu aprendes. Eu também.</string>
+
+    <!-- M8: officer's hint, analysis and replay of a battle. -->
+    <string name="battle_hint_button">Dica do imediato</string>
+    <string name="battle_hint_left">Dicas restantes: %1$d</string>
+    <string name="battle_hint_none">Sem dicas</string>
+    <string name="battle_hint_cap">Uma dica limita as estrelas a duas.</string>
+    <string name="battle_taunt_line">%1$s: %2$s</string>
+    <string name="result_analysis">Análise</string>
+    <string name="analysis_title">Análise</string>
+    <string name="analysis_computing">A analisar os tiros…</string>
+    <plurals name="analysis_precision">
+        <item quantity="one">Precisão %1$d %% · %2$d tiro</item>
+        <item quantity="other">Precisão %1$d %% · %2$d tiros</item>
+
+        <item quantity="many">Precisão %1$d %% · %2$d tiros</item>
+    </plurals>
+    <string name="analysis_wasted">Tiros desperdiçados: %1$d</string>
+    <string name="analysis_worst_title">Os três piores tiros</string>
+    <string name="analysis_worst_line">Tiro %1$d em %2$s · melhor casa %3$s</string>
+    <string name="analysis_worst_none">Nenhum tiro podia ter sido melhor.</string>
+    <plurals name="analysis_officer">
+        <item quantity="one">O imediato precisaria de cerca de %1$d tiro neste mar.</item>
+        <item quantity="other">O imediato precisaria de cerca de %1$d tiros neste mar.</item>
+
+        <item quantity="many">O imediato precisaria de cerca de %1$d tiros neste mar.</item>
+    </plurals>
+    <string name="analysis_officer_unknown">O imediato não conseguiu acabar este mar.</string>
+    <string name="analysis_legend">Os números são os tiros por ordem · ✕ tiro desperdiçado</string>
+    <string name="analysis_replay">Repetição</string>
+    <string name="analysis_error">Não foi possível fazer a análise desta batalha.</string>
+    <string name="replay_title">Repetição</string>
+    <string name="replay_play">Reproduzir</string>
+    <string name="replay_pause">Pausa</string>
+    <string name="replay_next">Seguinte</string>
+    <string name="replay_previous">Anterior</string>
+    <string name="replay_turn">Turno %1$d de %2$d</string>
+    <string name="replay_start">Início</string>
+    <string name="replay_end">Fim</string>
+    <string name="common_back">Voltar</string>
+
+    <!-- Mares (docs/CONTENT.md, secção 1). -->
+    <string name="sea_01_name">Baía do Farol</string>
+    <string name="sea_02_name">Estreito do Nevoeiro</string>
+    <string name="sea_03_name">Arquipélago dos Recifes</string>
+    <string name="sea_04_name">Mar de Gelo</string>
+    <string name="sea_05_name">Corredor das Minas</string>
+    <string name="sea_06_name">Atol Perdido</string>
+    <string name="sea_07_name">Rota do Comboio</string>
+    <string name="sea_08_name">Mar dos Sargaços</string>
+    <string name="sea_09_name">Fiorde Negro</string>
+    <string name="sea_10_name">Cabo das Tormentas</string>
+    <string name="sea_11_name">Fossa Abissal</string>
+    <string name="sea_12_name">Frota do Grande Almirante</string>
+
+    <!-- Almirantes (docs/CONTENT.md, secção 3). -->
+    <string name="adm_iris_name">Faroleira Íris</string>
+    <string name="adm_iris_style">Espalhado, longe das bordas</string>
+    <string name="adm_iris_quote">A luz encontra sempre alguém.</string>
+    <string name="adm_haze_name">Comodoro Bruma</string>
+    <string name="adm_haze_style">Junto às bordas</string>
+    <string name="adm_haze_quote">Sem pressa. O nevoeiro espera.</string>
+    <string name="adm_coral_name">Almirante Coral</string>
+    <string name="adm_coral_style">Encostado a ilhas</string>
+    <string name="adm_coral_quote">Os recifes guardam segredos.</string>
+    <string name="adm_frost_name">Capitã Geada</string>
+    <string name="adm_frost_style">Simétrico em espelho</string>
+    <string name="adm_frost_quote">Frio e exato.</string>
+    <string name="adm_iron_name">Sapador Ferro</string>
+    <string name="adm_iron_style">Agrupado num quadrante</string>
+    <string name="adm_iron_quote">Cuidado onde pões o pé.</string>
+    <string name="adm_atoll_name">Mestre Atol</string>
+    <string name="adm_atoll_style">Formações raras: cantos e linhas paralelas</string>
+    <string name="adm_atoll_quote">Já viste esta formação?</string>
+    <string name="adm_wolf_name">Corsário Lobo</string>
+    <string name="adm_wolf_style">Compacto</string>
+    <string name="adm_wolf_quote">Os cargueiros são meus.</string>
+    <string name="adm_sargasso_name">Bruxa dos Sargaços</string>
+    <string name="adm_sargasso_style">Aleatório e denso</string>
+    <string name="adm_sargasso_quote">As algas falam comigo.</string>
+    <string name="adm_shade_name">Capitão Sombra</string>
+    <string name="adm_shade_style">Muda a cada batalha</string>
+    <string name="adm_shade_quote">Nunca me vês chegar.</string>
+    <string name="adm_tempest_name">Almirante Tormenta</string>
+    <string name="adm_tempest_style">Espalhado, em rajadas</string>
+    <string name="adm_tempest_quote">Aguenta a tempestade.</string>
+    <string name="adm_leviathan_name">O Leviatã</string>
+    <string name="adm_leviathan_style">Profundo, longe de tudo</string>
+    <string name="adm_leviathan_quote">…</string>
+    <string name="adm_nox_name">Grande Almirante Nox</string>
+    <string name="adm_nox_style">Contra o estilo que mais te venceu</string>
+    <string name="adm_nox_quote">Mostra-me o que aprendeste.</string>
+
+    <!-- Navios (docs/CONTENT.md, secção 11.5). -->
+    <string name="ship_carrier_name">Porta-aviões</string>
+    <string name="ship_carrier_fact">A peça maior: cinco casas em linha.</string>
+    <string name="ship_battleship_name">Couraçado</string>
+    <string name="ship_battleship_fact">Quatro casas em linha, logo a seguir ao porta-aviões.</string>
+    <string name="ship_cruiser_name">Cruzador</string>
+    <string name="ship_cruiser_fact">Três casas em linha. Está em quase todos os mares.</string>
+    <string name="ship_submarine_name">Submarino</string>
+    <string name="ship_submarine_fact">O único navio que pode mergulhar, com a regra ativa.</string>
+    <string name="ship_destroyer_name">Contratorpedeiro</string>
+    <string name="ship_destroyer_fact">Duas casas. Fácil de esconder, difícil de encontrar.</string>
+    <string name="ship_seaplane_name">Hidroavião</string>
+    <string name="ship_seaplane_fact">Um T de quatro casas, usado pelas regras da escola.</string>
+    <string name="ship_midget_name">Submarino</string>
+    <string name="ship_midget_fact">Uma casa. Difícil de ver, fácil de perder.</string>
+    <string name="ship_freighter_name">Cargueiro</string>
+    <string name="ship_freighter_fact">Duas casas. Os cargueiros das missões de escolta.</string>
+
+    <!-- Manual de mecânicas (docs/CONTENT.md, secção 6). -->
+    <string name="manual_puzzle_title">Enigma do farol</string>
+    <string name="manual_puzzle_1">Cada linha e cada coluna diz quantas casas de navio tem. Preenche a grelha até todas as pistas baterem certo.</string>
+    <string name="manual_puzzle_2">As casas dadas nunca mudam. Usa a dica só quando estiveres preso, porque limita as estrelas que podes ganhar.</string>
+    <string name="manual_islands_title">Ilhas e recifes</string>
+    <string name="manual_islands_1">As ilhas ocupam casas que nenhum navio pode usar, por isso nunca são alvo.</string>
+    <string name="manual_islands_2">Os recifes marcam a água que os navios devem evitar. Lê o mapa antes de colocares a frota.</string>
+    <string name="manual_sonar_title">Sonar</string>
+    <string name="manual_sonar_1">O sonar lê uma área de 3×3 e diz se há um navio lá dentro.</string>
+    <string name="manual_sonar_2">Cada uso gasta uma carga. As cargas voltam quando afundas um navio.</string>
+    <string name="manual_clock_title">Contra-relógio</string>
+    <string name="manual_clock_1">Cada turno tem um tempo limite, e o relógio mostra quando está a acabar.</string>
+    <string name="manual_clock_2">Nos últimos três segundos o relógio fica vermelho e faz tique-taque.</string>
+    <string name="manual_mines_title">Minas</string>
+    <string name="manual_mines_1">Um mar minado esconde minas no mar. Um navio que toque numa fica atingido.</string>
+    <string name="manual_mines_2">Uma mina encontrada fica marcada com uma cruz, por isso vê o mapa antes de cada tiro.</string>
+    <string name="manual_recon_title">Reconhecimento aéreo</string>
+    <string name="manual_recon_1">O reconhecimento aéreo diz se uma linha ou coluna tem navios, mas não diz em que casa.</string>
+    <string name="manual_recon_2">Um visto quer dizer que há alguma coisa. Uma cruz quer dizer que a linha está vazia.</string>
+    <string name="manual_school_title">Regras da escola</string>
+    <string name="manual_school_1">Na grelha 10 × 10, a frota da escola usa hidroaviões em T, de quatro casas.</string>
+    <string name="manual_school_2">São navios diferentes, por isso a frota muda. Aprende as formas novas antes de colocares.</string>
+    <string name="manual_escort_title">Escolta de comboio</string>
+    <string name="manual_escort_1">Mantém os três cargueiros a flutuar enquanto caças a frota do almirante.</string>
+    <string name="manual_escort_2">Os cargueiros contam para as estrelas: os três intactos dão a estrela extra.</string>
+    <string name="manual_decoy_title">Isco</string>
+    <string name="manual_decoy_1">O isco é um navio falso de uma casa que parece real até ser revelado.</string>
+    <string name="manual_decoy_2">Um bom isco faz o almirante disparar onde não há nada para acertar.</string>
+    <string name="manual_torpedo_title">Torpedo</string>
+    <string name="manual_torpedo_1">Um torpedo percorre uma linha ou coluna inteira e acerta no primeiro navio que encontrar.</string>
+    <string name="manual_torpedo_2">Carrega-se afundando navios, como as outras armas especiais.</string>
+    <string name="manual_submerge_title">Submarinos que mergulham</string>
+    <string name="manual_submerge_1">Um submarino à superfície pode mergulhar para escapar a um tiro e ficar oculto durante algumas rondas.</string>
+    <string name="manual_submerge_2">Um submarino submerso aparece como contacto até voltar à superfície.</string>
+    <string name="manual_repair_title">Reparação</string>
+    <string name="manual_repair_1">A reparação remenda uma casa atingida de um navio, mas só com carga.</string>
+    <string name="manual_repair_2">A casa reparada fica com um remendo, para veres a mudança.</string>
+    <string name="manual_salvo_title">Salva</string>
+    <string name="manual_salvo_1">A salva dispara várias casas de uma vez, e escolhes quais.</string>
+    <string name="manual_salvo_2">A salva gasta-se num turno, por isso planeia as casas em conjunto.</string>
+    <string name="manual_cross_title">Bombardeamento em cruz</string>
+    <string name="manual_cross_1">O bombardeamento em cruz atinge cinco casas em forma de cruz de uma vez.</string>
+    <string name="manual_cross_2">Cada impacto cai por ordem, por isso lês o resultado à medida que acontece.</string>
+    <string name="manual_large_title">12 × 12</string>
+    <string name="manual_large_1">O maior mar tem doze por doze casas e mais navios para encontrar.</string>
+    <string name="manual_large_2">Planeia a procura por faixas. A técnica do 10 × 10 continua a servir, mas demora mais.</string>
+    <string name="manual_fog_title">Nevoeiro</string>
+    <string name="manual_fog_1">O nevoeiro tapa as marcas do último turno, por isso tens de te lembrar do que viste.</string>
+    <string name="manual_fog_2">As marcas de água desvanecem-se, por isso guarda notas de cabeça ou em papel.</string>
+    <string name="manual_moving_title">Navios que se movem</string>
+    <string name="manual_moving_1">Alguns almirantes mudam os navios entre turnos, por isso uma marca antiga pode deixar de ser verdade.</string>
+    <string name="manual_moving_2">Vê se o mar mudou depois de cada tiro.</string>
+
+    <!-- Patentes (docs/CONTENT.md, secção 7). -->
+    <string name="rank_cabin_boy">Grumete</string>
+    <string name="rank_seaman">Marinheiro</string>
+    <string name="rank_leading_seaman">Cabo</string>
+    <string name="rank_petty_officer">Sargento</string>
+    <string name="rank_midshipman">Guarda-marinha</string>
+    <string name="rank_ensign">Subtenente</string>
+    <string name="rank_sub_lieutenant">Segundo-tenente</string>
+    <string name="rank_lieutenant">Primeiro-tenente</string>
+    <string name="rank_lieutenant_commander">Capitão-tenente</string>
+    <string name="rank_commander">Capitão de fragata</string>
+    <string name="rank_captain">Capitão de mar e guerra</string>
+    <string name="rank_rear_admiral">Contra-almirante</string>
+    <string name="rank_vice_admiral">Vice-almirante</string>
+    <string name="rank_admiral">Almirante</string>
+    <string name="rank_grand_admiral">Grande Almirante</string>
+
+    <!-- Conquistas (docs/CONTENT.md, secção 8). -->
+    <string name="ach_title">Conquistas</string>
+    <plurals name="ach_summary">
+        <item quantity="one">%1$d de %2$d desbloqueada</item>
+        <item quantity="other">%1$d de %2$d desbloqueadas</item>
+
+        <item quantity="many">%1$d de %2$d desbloqueadas</item>
+    </plurals>
+    <string name="ach_empty">Nada corresponde a este filtro.</string>
+    <string name="ach_secret_title">Conquista secreta</string>
+    <string name="ach_secret_desc">A condição fica escondida até a desbloqueares.</string>
+    <string name="ach_unlocked">Desbloqueada</string>
+    <string name="ach_locked">Por desbloquear</string>
+    <string name="ach_per_difficulty">Por dificuldade</string>
+    <string name="ach_filter_all">Todas</string>
+    <string name="ach_filter_unlocked">Desbloqueadas</string>
+    <string name="ach_filter_locked">Por desbloquear</string>
+    <string name="ach_first_win">Primeira vitória</string>
+    <string name="ach_first_win_desc">Ganha a primeira batalha.</string>
+    <string name="ach_first_sink">Primeiro afundamento</string>
+    <string name="ach_first_sink_desc">Afunda o primeiro navio inimigo.</string>
+    <string name="ach_torpedo_sink">Afundar com torpedo</string>
+    <string name="ach_torpedo_sink_desc">Afunda um navio com um torpedo.</string>
+    <string name="ach_sonar_sharp">Sonar certeiro</string>
+    <string name="ach_sonar_sharp_desc">Obtém três ou mais leituras de sonar com navio numa só batalha.</string>
+    <string name="ach_salvo_sink">Afundar com uma Salva</string>
+    <string name="ach_salvo_sink_desc">Afunda um navio com uma Salva.</string>
+    <string name="ach_cross_three">Cruz com 3 acertos</string>
+    <string name="ach_cross_three_desc">Acerta três ou mais casas com um só bombardeamento em cruz.</string>
+    <string name="ach_decoy_win">Enganar com o Isco</string>
+    <string name="ach_decoy_win_desc">Ganha uma batalha depois de o almirante cair num isco.</string>
+    <string name="ach_submerged_found">Encontrar um submerso</string>
+    <string name="ach_submerged_found_desc">Encontra um submarino submerso.</string>
+    <string name="ach_repair_win">Reparar e ganhar</string>
+    <string name="ach_repair_win_desc">Repara um navio e ganha a batalha.</string>
+    <string name="ach_move_escape">Mover e escapar</string>
+    <string name="ach_move_escape_desc">Move um navio e vê o almirante disparar onde ele estava.</string>
+    <string name="ach_mine_win">Sobreviver a uma mina e ganhar</string>
+    <string name="ach_mine_win_desc">Sobrevive a uma mina e ganha a batalha.</string>
+    <string name="ach_no_miss_five">Ganhar sem falhar 5 seguidos</string>
+    <string name="ach_no_miss_five_desc">Ganha sem falhar cinco tiros seguidos.</string>
+    <string name="ach_precision_70">Precisão de 70 por cento num 10×10</string>
+    <string name="ach_precision_70_desc">Chega a 70 por cento de precisão num mar 10 × 10.</string>
+    <string name="ach_win_30_shots">Ganhar em ≤ 30 tiros (10×10)</string>
+    <string name="ach_win_30_shots_desc">Ganha uma batalha 10 × 10 em 30 tiros ou menos.</string>
+    <string name="ach_escort_perfect">Escolta perfeita</string>
+    <string name="ach_escort_perfect_desc">Ganha uma escolta com os três cargueiros intactos.</string>
+    <string name="ach_hunt_half_budget">Caça com metade do orçamento</string>
+    <string name="ach_hunt_half_budget_desc">Ganha uma caça com metade do orçamento de tiros ou menos.</string>
+    <string name="ach_bosses_12">12 chefes</string>
+    <string name="ach_bosses_12_desc">Vence cada um dos doze chefes, em qualquer dificuldade.</string>
+    <string name="ach_seas_hard">Cada mar em Difícil</string>
+    <string name="ach_seas_hard_desc">Limpa cada mar em Difícil.</string>
+    <string name="ach_threestar_50">Três estrelas: 50</string>
+    <string name="ach_threestar_50_desc">Ganha três estrelas em 50 missões.</string>
+    <string name="ach_threestar_100">Três estrelas: 100</string>
+    <string name="ach_threestar_100_desc">Ganha três estrelas em 100 missões.</string>
+    <string name="ach_threestar_300">Três estrelas: 300</string>
+    <string name="ach_threestar_300_desc">Ganha três estrelas em 300 missões.</string>
+    <string name="ach_puzzles_nohint_100">100 enigmas sem dicas</string>
+    <string name="ach_puzzles_nohint_100_desc">Resolve 100 enigmas sem dicas.</string>
+    <string name="ach_puzzle_hard_10_nohint">Enigma 10×10 Difícil sem dicas</string>
+    <string name="ach_puzzle_hard_10_nohint_desc">Resolve um enigma 10 × 10 em Difícil sem dicas.</string>
+    <string name="ach_endless_10">10 enigmas sem fim seguidos</string>
+    <string name="ach_endless_10_desc">Resolve dez enigmas sem fim seguidos.</string>
+    <string name="ach_patrol_5">Patrulha: 5 mares</string>
+    <string name="ach_patrol_5_desc">Limpa cinco mares numa corrida de patrulha.</string>
+    <string name="ach_patrol_10">Patrulha: 10 mares</string>
+    <string name="ach_patrol_10_desc">Limpa dez mares numa corrida de patrulha.</string>
+    <string name="ach_tournament_win">Ganhar um Torneio</string>
+    <string name="ach_tournament_win_desc">Ganha um torneio dos almirantes.</string>
+    <string name="ach_relentless_win">Ganhar ao Implacável</string>
+    <string name="ach_relentless_win_desc">Vence o Implacável no jogo livre.</string>
+    <string name="ach_turn_limit_draw">Empatar o limite de turnos</string>
+    <string name="ach_turn_limit_draw_desc">Uma batalha termina empatada no limite de turnos.</string>
+    <string name="ach_daily_7">7 desafios diários</string>
+    <string name="ach_daily_7_desc">Faz sete desafios diários.</string>
+    <string name="ach_daily_30">30 desafios diários</string>
+    <string name="ach_daily_30_desc">Faz trinta desafios diários.</string>
+    <string name="ach_duo_10">10 duelos a dois</string>
+    <string name="ach_duo_10_desc">Joga dez duelos a dois.</string>
+    <string name="ach_all_paints">Todas as pinturas</string>
+    <string name="ach_all_paints_desc">Desbloqueia todas as pinturas da frota.</string>
+    <string name="ach_rank_commander">Patente Capitão de fragata</string>
+    <string name="ach_rank_commander_desc">Atinge a patente de Capitão de fragata.</string>
+    <string name="ach_rank_admiral">Patente Almirante</string>
+    <string name="ach_rank_admiral_desc">Atinge a patente de Almirante.</string>
+    <string name="ach_grand_admiral">Grande Almirante</string>
+    <string name="ach_grand_admiral_desc">Atinge a patente de Grande Almirante.</string>
+
+    <!-- Perfil. -->
+    <string name="prof_title">Perfil</string>
+    <string name="prof_total">%1$d ★ no total</string>
+    <string name="prof_next">Faltam %1$d ★ para %2$s</string>
+    <plurals name="prof_next_bosses">
+        <item quantity="one">Vence mais %1$d chefe em Difícil para chegar a %2$s</item>
+        <item quantity="other">Vence mais %1$d chefes em Difícil para chegar a %2$s</item>
+
+        <item quantity="many">Vence mais %1$d chefes em Difícil para chegar a %2$s</item>
+    </plurals>
+    <string name="prof_grand">Chegaste à patente máxima.</string>
+    <string name="prof_hard_bosses">Chefes vencidos em Difícil: %1$d de %2$d</string>
+    <string name="prof_gallery">Galeria</string>
+    <string name="prof_gallery_sub">Almirantes e navios</string>
+    <string name="prof_achievements">Conquistas</string>
+    <plurals name="prof_achievements_sub">
+        <item quantity="one">%1$d de %2$d desbloqueada</item>
+        <item quantity="other">%1$d de %2$d desbloqueadas</item>
+
+        <item quantity="many">%1$d de %2$d desbloqueadas</item>
+    </plurals>
+    <string name="prof_statistics">Estatísticas</string>
+    <string name="prof_statistics_sub">Batalhas, precisão e mapa dos tiros</string>
+    <string name="prof_paints">Pinturas da frota: %1$d de %2$d</string>
+
+    <!-- Galeria. -->
+    <string name="gal_title">Galeria</string>
+    <string name="gal_admirals">Almirantes</string>
+    <string name="gal_ships">Navios</string>
+    <string name="gal_manual">Manual</string>
+    <string name="gal_unknown">\?\?\?</string>
+    <string name="gal_record_title">Registo contra ti</string>
+    <string name="gal_record">%1$s: %2$d V · %3$d D</string>
+    <string name="gal_play_against">Jogar contra</string>
+    <plurals name="gal_ship_size">
+        <item quantity="one">%d casa</item>
+        <item quantity="other">%d casas</item>
+
+        <item quantity="many">%d casas</item>
+    </plurals>
+
+    <!-- Diário de bordo. -->
+    <string name="log_title">Diário de bordo</string>
+    <string name="log_filter_all">Todas</string>
+    <string name="log_filter_campaign">Campanha</string>
+    <string name="log_filter_modes">Modos</string>
+    <string name="log_filter_wins">Vitórias</string>
+    <string name="log_filter_pinned">Fixadas</string>
+    <string name="log_empty">Ainda sem batalhas nem enigmas. Os jogos terminados aparecem aqui.</string>
+    <string name="log_empty_filter">Nada corresponde a este filtro.</string>
+    <string name="log_pin">Fixar</string>
+    <string name="log_unpin">Desafixar</string>
+    <string name="log_pinned">Fixada</string>
+    <plurals name="log_pin_limit">
+        <item quantity="one">Podes fixar até %1$d entrada. Desafixa primeiro uma.</item>
+        <item quantity="other">Podes fixar até %1$d entradas. Desafixa primeiro uma.</item>
+
+        <item quantity="many">Podes fixar até %1$d entradas. Desafixa primeiro uma.</item>
+    </plurals>
+    <string name="log_mission_title">%1$s · Missão %2$d</string>
+    <string name="log_result_win">Vitória</string>
+    <string name="log_result_loss">Derrota</string>
+    <string name="log_result_draw">Empate</string>
+    <string name="log_result_solved">Resolvido</string>
+    <string name="log_result_abandoned">Abandonado</string>
+    <string name="log_precision">Precisão %1$d%%</string>
+    <plurals name="log_shots">
+        <item quantity="one">%1$d tiro</item>
+        <item quantity="other">%1$d tiros</item>
+
+        <item quantity="many">%1$d tiros</item>
+    </plurals>
+    <string name="log_player_map">O teu mar</string>
+    <string name="log_enemy_map">Mar do almirante</string>
+    <string name="log_replay">Repetição</string>
+    <string name="log_analysis">Análise</string>
+    <string name="kind_campaign">Campanha</string>
+    <string name="kind_daily">Desafio diário</string>
+    <string name="kind_free">Jogo livre</string>
+    <string name="kind_duo">Duelo a dois</string>
+    <string name="kind_patrol">Patrulha</string>
+    <string name="kind_tournament">Torneio dos almirantes</string>
+    <string name="kind_endless">Enigmas sem fim</string>
+
+    <!-- Estatísticas. -->
+    <string name="stat_title">Estatísticas</string>
+    <string name="stat_battles">Batalhas</string>
+    <string name="stat_wins">Vitórias</string>
+    <string name="stat_precision">Precisão média</string>
+    <string name="stat_streak">Maior sequência de acertos</string>
+    <string name="stat_puzzles">Enigmas resolvidos</string>
+    <string name="stat_playtime">Tempo jogado</string>
+    <string name="stat_playtime_value">%1$d h %2$d min</string>
+    <plurals name="stat_shots">
+        <item quantity="one">%1$d tiro disparado</item>
+        <item quantity="other">%1$d tiros disparados</item>
+
+        <item quantity="many">%1$d tiros disparados</item>
+    </plurals>
+    <string name="stat_heatmap">Mapa dos teus tiros</string>
+    <string name="stat_heatmap_empty">Ainda sem tiros. O mapa preenche-se à medida que jogas.</string>
+    <plurals name="stat_heatmap_desc">
+        <item quantity="one">Mapa de tiros: %1$d tiro</item>
+        <item quantity="other">Mapa de tiros: %1$d tiros</item>
+
+        <item quantity="many">Mapa de tiros: %1$d tiros</item>
+    </plurals>
+    <string name="stat_heatmap_legend">As casas mais brilhantes levaram mais tiros.</string>
+    <string name="stat_weapons">Armas usadas</string>
+    <string name="stat_no_data">Ainda sem dados.</string>
+    <string name="stat_sunk">Navios afundados</string>
+    <string name="stat_sunk_total">Total: %1$d</string>
+    <string name="stat_records">Recordes dos modos</string>
+    <string name="stat_records_note">Os enigmas sem fim contam em todas as dificuldades.</string>
+    <string name="stat_endless">Enigmas sem fim: 6×6 %1$d · 8×8 %2$d · 10×10 %3$d</string>
+    <plurals name="stat_sunk_count">
+        <item quantity="one">%d afundado</item>
+        <item quantity="other">%d afundados</item>
+
+        <item quantity="many">%d afundados</item>
+    </plurals>
+    <plurals name="stat_patrol_seas">
+        <item quantity="one">Patrulha: %d mar</item>
+        <item quantity="other">Patrulha: %d mares</item>
+
+        <item quantity="many">Patrulha: %d mares</item>
+    </plurals>
+    <plurals name="stat_tournament_rounds">
+        <item quantity="one">Torneio: %d ronda</item>
+        <item quantity="other">Torneio: %d rondas</item>
+
+        <item quantity="many">Torneio: %d rondas</item>
+    </plurals>
+    <string name="weapon_sonar">Sonar</string>
+    <string name="weapon_torpedo">Torpedo</string>
+    <string name="weapon_recon">Reconhecimento aéreo</string>
+    <string name="weapon_cross">Bombardeamento em cruz</string>
+    <string name="weapon_decoy">Isco</string>
+    <string name="weapon_repair">Reparação</string>
+
+    <!-- Definições. -->
+    <string name="set_title">Definições</string>
+    <string name="set_sec_sound">Som</string>
+    <string name="set_sec_game">Jogo</string>
+    <string name="set_sec_appearance">Aspeto</string>
+    <string name="set_sec_access">Acessibilidade</string>
+    <string name="set_sec_language">Idioma</string>
+    <string name="set_sec_data">Dados</string>
+    <string name="set_sec_about">Sobre</string>
+    <string name="set_sfx">Efeitos sonoros</string>
+    <string name="set_music">Música ambiente</string>
+    <string name="set_vibration">Vibração</string>
+    <string name="set_confirm">Confirmar tiro</string>
+    <string name="set_confirm_sub">Toca uma vez para selecionar e outra para disparar.</string>
+    <string name="set_speed">Velocidade do almirante</string>
+    <string name="set_speed_normal">Normal</string>
+    <string name="set_speed_fast">Rápida</string>
+    <string name="set_swap">Trocar mares no turno do almirante</string>
+    <string name="set_shake">Ecrã treme quando um navio teu é atingido</string>
+    <string name="set_left">Mão esquerda</string>
+    <string name="set_left_sub">Coloca o teu mar à direita.</string>
+    <string name="set_theme">Tema</string>
+    <string name="set_theme_chart">Carta Náutica</string>
+    <string name="set_theme_sonar">Sonar Abissal</string>
+    <string name="set_theme_paper">Frota de Papel</string>
+    <string name="set_theme_holo">Holo Tático</string>
+    <string name="set_grand">Acabamento Grande Almirante</string>
+    <string name="set_grand_on">Dourado nas marcas de acerto e nos nós do mapa.</string>
+    <string name="set_grand_locked">Bloqueado: vence os 12 chefes em Difícil. Faltam %1$d.</string>
+    <string name="set_weather">Tempo no mar</string>
+    <string name="set_weather_sub">Chuva, nevoeiro e aurora em redor da grelha.</string>
+    <string name="set_paint">Pintura da frota</string>
+    <string name="set_paint_default">Casco padrão</string>
+    <string name="set_paint_admirals">Almirantes</string>
+    <string name="set_paint_ranks">Patentes</string>
+    <string name="set_paint_boss_locked">Vence %1$s em qualquer dificuldade.</string>
+    <string name="set_paint_rank_locked">Atinge a patente de %1$s.</string>
+    <string name="set_palette">Paleta de cores</string>
+    <string name="set_palette_normal">Normal</string>
+    <string name="set_palette_deuteranopia">Deuteranopia</string>
+    <string name="set_palette_protanopia">Protanopia</string>
+    <string name="set_palette_tritanopia">Tritanopia</string>
+    <string name="set_motion">Movimento reduzido</string>
+    <string name="set_motion_system">Segue o sistema</string>
+    <string name="set_motion_on">Ligado</string>
+    <string name="set_motion_off">Desligado</string>
+    <string name="set_motion_system_reduced">O sistema pede movimento reduzido.</string>
+    <string name="set_motion_system_normal">O sistema permite movimento.</string>
+    <string name="set_larger">Texto maior (×1,15)</string>
+    <string name="set_contrast">Grelha de alto contraste</string>
+    <string name="set_lang_system">Segue o sistema</string>
+    <string name="set_export">Exportar progresso</string>
+    <string name="set_export_sub">Guarda um ficheiro. Nada sai do telemóvel.</string>
+    <string name="set_import">Importar progresso</string>
+    <string name="set_import_sub">Substitui o teu progresso depois de confirmares.</string>
+    <string name="set_diag">Exportar diagnóstico</string>
+    <string name="set_diag_sub">Versões e contadores. Sem nomes nem partidas.</string>
+    <string name="set_reset">Repor campanha</string>
+    <string name="set_reset_sub">Mantém definições, formações, diário e conquistas.</string>
+    <string name="set_reset_title">Repor a campanha?</string>
+    <string name="set_reset_body">Estrelas, mares desbloqueados e resultados dos chefes voltam ao início. Definições, formações, diário, conquistas e estatísticas ficam.</string>
+    <string name="set_reset_confirm">Repor</string>
+    <string name="set_reset_done">Campanha reposta.</string>
+    <string name="set_cancel">Cancelar</string>
+    <string name="set_busy">A trabalhar…</string>
+    <string name="set_exported">Progresso guardado.</string>
+    <string name="set_diag_done">Diagnóstico guardado.</string>
+    <string name="set_error_generic">Não foi possível concluir. Nada foi alterado.</string>
+    <string name="set_import_bad">Este ficheiro não é um backup do Night Fleet.</string>
+    <string name="set_import_damaged">Este backup está danificado. Nada foi alterado.</string>
+    <string name="set_import_title">Substituir o teu progresso?</string>
+    <string name="set_import_body">O progresso atual fica guardado primeiro como cópia.</string>
+    <string name="set_import_stars">Estrelas: %1$d</string>
+    <string name="set_import_logbook">Entradas no diário: %1$d</string>
+    <string name="set_import_saved">Batalhas por acabar: %1$d</string>
+    <string name="set_import_confirm">Substituir progresso</string>
+    <string name="set_import_done">Progresso substituído.</string>
+    <!-- M8: campanha, mapa do mar, folha da missão e jogo -->
+    <string name="campaign_kind_duel">Duelo</string>
+    <string name="campaign_kind_hunt">Caça</string>
+    <string name="campaign_kind_convoy">Escolta</string>
+    <string name="campaign_kind_boss">Chefe</string>
+    <string name="campaign_kind_puzzle">Enigma</string>
+    <string name="campaign_title_tagged">%1$s · %2$s</string>
+    <string name="campaign_tag_islands">Ilhas</string>
+    <string name="campaign_tag_reefs">Recifes</string>
+    <string name="campaign_tag_mines">Minas</string>
+    <string name="campaign_tag_timed">Contra-relógio</string>
+    <string name="campaign_tag_salvo">Salva</string>
+    <string name="campaign_tag_diving">Submarinos</string>
+    <string name="campaign_tag_fog">Nevoeiro</string>
+    <string name="campaign_tag_moving">Navios que se movem</string>
+    <string name="campaign_tag_school">Regras da escola</string>
+    <string name="campaign_tag_large">Grelha grande</string>
+    <string name="campaign_tag_sonar">Sonar</string>
+    <string name="campaign_tag_torpedo">Torpedo</string>
+    <string name="campaign_tag_recon">Reconhecimento aéreo</string>
+    <string name="campaign_tag_cross">Bombardeamento em cruz</string>
+    <string name="campaign_tag_decoy">Isco</string>
+    <string name="campaign_tag_repair">Reparação</string>
+    <string name="campaign_loading">A carregar a missão…</string>
+    <string name="campaign_back">Voltar</string>
+    <string name="campaign_battle_title">Missão %1$d</string>
+    <string name="campaign_battle_subtitle">%1$s · %2$s</string>
+    <string name="campaign_boss_score">Série %1$d–%2$d</string>
+    <string name="campaign_boss_next_rule">O próximo duelo abre, por turnos, para o almirante ou para ti.</string>
+    <string name="campaign_boss_next">Próximo duelo</string>
+    <string name="campaign_map_stars">★ %1$d de 150</string>
+    <string name="campaign_map_boss">Chefe</string>
+    <string name="campaign_map_previous_sea">Mar anterior</string>
+    <string name="campaign_map_next_sea">Mar seguinte</string>
+    <string name="campaign_map_current">Ir para a missão atual</string>
+    <string name="campaign_map_resume">Retomar a missão %1$d</string>
+    <string name="campaign_map_node_locked">Missão %1$d, bloqueada</string>
+    <plurals name="campaign_map_node">
+        <item quantity="one">Missão %1$d, %2$s, %3$d estrela</item>
+        <item quantity="other">Missão %1$d, %2$s, %3$d estrelas</item>
+
+        <item quantity="many">Missão %1$d, %2$s, %3$d estrelas</item>
+    </plurals>
+    <string name="campaign_mission_number">Missão %1$d</string>
+    <string name="campaign_objective_duel">Afunda a frota do almirante antes de ele afundar a tua.</string>
+    <string name="campaign_objective_hunt">Encontra e afunda todos os navios dentro do orçamento de tiros.</string>
+    <string name="campaign_objective_convoy">Faz os cargueiros chegar vivos e afunda a frota inimiga.</string>
+    <string name="campaign_objective_boss">Vence dois duelos em três.</string>
+    <string name="campaign_objective_puzzle">Resolve o enigma sem erros.</string>
+    <plurals name="campaign_sheet_thresholds">
+        <item quantity="one">★★★ até %1$d tiro · ★★ até %2$d</item>
+        <item quantity="other">★★★ até %1$d tiros · ★★ até %2$d</item>
+
+        <item quantity="many">★★★ até %1$d tiros · ★★ até %2$d</item>
+    </plurals>
+    <plurals name="campaign_sheet_best">
+        <item quantity="one">Melhor: %1$d tiro</item>
+        <item quantity="other">Melhor: %1$d tiros</item>
+
+        <item quantity="many">Melhor: %1$d tiros</item>
+    </plurals>
+    <string name="campaign_sheet_no_best">Ainda não jogada</string>
+    <string name="campaign_sheet_locked">Bloqueada: vence primeiro a missão anterior com pelo menos uma estrela.</string>
+    <string name="campaign_sheet_play">Jogar</string>
+    <string name="home_campaign_complete">Todos os mares estão concluídos nesta dificuldade</string>
+    <string name="daily_coming_soon">O desafio diário ainda não está ligado.</string>
+    <string name="logbook_entry_missing">Esta entrada não tem repetição guardada.</string>
+    <string name="result_draw">Empate</string>
+    <string name="result_draw_text">Nenhuma frota afundou a outra a tempo.</string>
+    <string name="result_draw_replay">O duelo terminou empatado. Repete-se uma vez.</string>
+    <string name="result_duel_won">Duelo ganho</string>
+    <string name="result_duel_lost">Duelo perdido</string>
+    <string name="result_series_score">Série %1$d–%2$d</string>
+    <string name="result_series_open">A série continua.</string>
+    <string name="result_next_star_freighters">Próxima estrela: os três cargueiros à tona.</string>
+    <string name="result_next_star_sink">Próxima estrela: os três cargueiros à tona e a frota inimiga afundada.</string>
+    <string name="result_achievement">Conquista: %1$s</string>
+    <string name="result_rank_up">Nova patente: %1$s</string>
+    <string name="result_paint_unlocked">Nova pintura da frota desbloqueada.</string>
+    <string name="result_replay_duel">Repetir o duelo</string>
+    <string name="result_next_duel">Próximo duelo</string>
+    <string name="daily_title">Desafio diário</string>
+    <string name="daily_card_puzzle">Enigma diário</string>
+    <string name="daily_card_hunt">Caça diária</string>
+    <string name="daily_hunt_title">Caça diária</string>
+    <string name="daily_play">Jogar</string>
+    <string name="daily_play_again">Jogar outra vez</string>
+    <string name="daily_strip_title">Últimos 14 dias</string>
+    <string name="daily_best_today">Melhor hoje: %1$d de 3 estrelas</string>
+    <string name="daily_unavailable">Indisponível hoje</string>
+    <string name="campaign_resume_discarded">A batalha guardada não pôde ser retomada e foi descartada.</string>
+    <string name="campaign_resume_new">Começar a missão outra vez</string>
+    <string name="puzzle_next_mission">Missão seguinte</string>
+    <string name="set_about_description">Night Fleet é uma batalha naval offline: doze mares, seiscentas missões, almirantes, enigmas do farol e sem internet.</string>
+    <string name="set_licences">Licenças das fontes</string>
+    <string name="set_licences_sub">Fontes sob a SIL Open Font License. Toca num ficheiro para o ler.</string>
+    <!-- Ecrã de diagnóstico só nas compilações de depuração (ver DebugChecks). -->
+    <string name="diag_title">Diagnóstico</string>
+    <string name="diag_sub">Só nas compilações de depuração. As verificações correm neste telemóvel, fora da interface.</string>
+    <string name="diag_release_only">Estas verificações existem só nas compilações de depuração.</string>
+    <string name="diag_run">Correr verificações</string>
+    <string name="diag_run_sub">Jogadas de referência dos almirantes (4 níveis, 200 situações em cada), tempo de decisão (100 decisões por série) e hash do motor.</string>
+    <string name="diag_running">A correr…</string>
+    <string name="diag_not_run">Ainda não correu nesta sessão.</string>
+    <string name="diag_export">Exportar relatório</string>
+    <string name="diag_export_sub">Guarda o texto de diagnóstico, com os últimos resultados, num ficheiro.</string>
+    <string name="diag_golden_title">Jogadas de referência da IA</string>
+    <string name="diag_golden_missing">O ficheiro de referência não está nesta compilação.</string>
+    <string name="diag_golden_pass">%1$s: aprovado (verificadas %2$d)</string>
+    <string name="diag_golden_fail">%1$s: FALHOU (diferenças %2$d)</string>
+    <string name="diag_golden_parse">%1$s: não foi possível ler o ficheiro de referência</string>
+    <string name="diag_version_differs">A versão da IA é diferente do ficheiro de referência.</string>
+    <string name="diag_mismatch">Situação %1$d: esperada %2$s, obtida %3$s</string>
+    <string name="diag_timing_title">Tempo de decisão (ms)</string>
+    <string name="diag_timing_line">%1$s, %2$s: p50 %3$s, p95 %4$s, máx. %5$s</string>
+    <string name="diag_engine_title">Hash do motor</string>
+    <string name="diag_engine_pass">O duelo de teste coincide com a referência da JVM.</string>
+    <string name="diag_engine_fail">O duelo de teste difere da referência da JVM.</string>
+
+    <!-- Patrol and Admirals' tournament (M11). -->
+    <string name="modes_title">Mais modos</string>
+    <string name="modes_endless_caption">Enigmas sem fim, de 6×6 a 10×10</string>
+    <string name="modes_patrol_title">Patrulha</string>
+    <string name="modes_patrol_caption">Uma reserva de tiros partilhada, mar após mar</string>
+    <string name="modes_tournament_title">Torneio dos almirantes</string>
+    <string name="modes_tournament_caption">Oito almirantes vencidos; uma derrota acaba o torneio</string>
+    <string name="mode_back">Voltar</string>
+    <string name="mode_see_result">Ver resultado</string>
+    <string name="mode_difficulty">Dificuldade</string>
+    <string name="patrol_title">Patrulha</string>
+    <string name="patrol_intro">Caça frota após frota com uma reserva de tiros partilhada. Cada mar limpo devolve 3 tiros por navio afundado. A patrulha acaba quando a reserva se esgota.</string>
+    <plurals name="patrol_start_reserve">
+        <item quantity="one">Reserva inicial: %1$d tiro</item>
+        <item quantity="other">Reserva inicial: %1$d tiros</item>
+        <item quantity="many">Reserva inicial: %1$d tiros</item>
+    </plurals>
+    <plurals name="patrol_record">
+        <item quantity="one">Recorde: %1$d mar limpo</item>
+        <item quantity="other">Recorde: %1$d mares limpos</item>
+        <item quantity="many">Recorde: %1$d mares limpos</item>
+    </plurals>
+    <string name="patrol_start">Começar patrulha</string>
+    <plurals name="patrol_continue">
+        <item quantity="one">Continuar (mar %1$d, %2$d tiro na reserva)</item>
+        <item quantity="other">Continuar (mar %1$d, %2$d tiros na reserva)</item>
+        <item quantity="many">Continuar (mar %1$d, %2$d tiros na reserva)</item>
+    </plurals>
+    <string name="patrol_restart">Começar nova patrulha</string>
+    <string name="patrol_sea_title">Patrulha · mar %1$d</string>
+    <plurals name="patrol_sea_subtitle">
+        <item quantity="one">Grelha %1$d×%1$d · %2$d mina</item>
+        <item quantity="other">Grelha %1$d×%1$d · %2$d minas</item>
+        <item quantity="many">Grelha %1$d×%1$d · %2$d minas</item>
+    </plurals>
+    <string name="patrol_reserve_hud">Reserva %1$d</string>
+    <plurals name="patrol_line_cleared">
+        <item quantity="one">Mar %1$d limpo · %2$d tiro guardado para o mar seguinte</item>
+        <item quantity="other">Mar %1$d limpo · %2$d tiros guardados para o mar seguinte</item>
+        <item quantity="many">Mar %1$d limpo · %2$d tiros guardados para o mar seguinte</item>
+    </plurals>
+    <string name="patrol_line_lost">A reserva esgotou-se no mar %1$d.</string>
+    <string name="patrol_next_sea">Próximo mar</string>
+    <string name="patrol_over_title">Patrulha terminada</string>
+    <plurals name="patrol_over_text">
+        <item quantity="one">Limpaste %1$d mar. Recorde: %2$d.</item>
+        <item quantity="other">Limpaste %1$d mares. Recorde: %2$d.</item>
+        <item quantity="many">Limpaste %1$d mares. Recorde: %2$d.</item>
+    </plurals>
+    <string name="patrol_over_new_record">Novo recorde.</string>
+    <string name="patrol_over_again">Nova patrulha</string>
+    <string name="patrol_config_error">Não foi possível ler a configuração da patrulha.</string>
+    <string name="patrol_setup_failed">Não foi possível montar este mar. Tenta outra vez.</string>
+    <string name="tournament_title">Torneio dos almirantes</string>
+    <string name="tournament_intro">Oito almirantes que já venceste, do mais fraco ao mais forte. Cada duelo tem uma regra sorteada da campanha. Sem dicas, sem desfazer e sem repetir: uma derrota acaba o torneio.</string>
+    <plurals name="tournament_need">
+        <item quantity="one">O torneio abre quando venceres %2$d almirante na campanha. Já venceste %1$d de %2$d.</item>
+        <item quantity="many">O torneio abre quando venceres %2$d almirantes na campanha. Já venceste %1$d de %2$d.</item>
+        <item quantity="other">O torneio abre quando venceres %2$d almirantes na campanha. Já venceste %1$d de %2$d.</item>
+    </plurals>
+    <string name="tournament_to_campaign">Ir para a campanha</string>
+    <string name="tournament_eligible_title">Almirantes que já venceste</string>
+    <string name="tournament_pick_hint">Toca para adicionar ou retirar. São precisos oito; por omissão, os mais fracos.</string>
+    <string name="tournament_choose">Almirantes na escada: %1$d de 8</string>
+    <string name="tournament_record">Recorde: %1$d de 8 duelos vencidos</string>
+    <string name="tournament_start">Começar torneio</string>
+    <string name="tournament_restart">Começar novo torneio</string>
+    <string name="tournament_bracket_title">Escada</string>
+    <string name="tournament_rule_label">Regra: %1$s</string>
+    <string name="tournament_rule_classic">Duelo clássico</string>
+    <string name="tournament_status_won">Vencido</string>
+    <string name="tournament_status_next">A seguir</string>
+    <string name="tournament_status_ahead">Por jogar</string>
+    <string name="tournament_play">Jogar duelo %1$d</string>
+    <string name="tournament_line">Duelos vencidos: %1$d de %2$d</string>
+    <string name="tournament_next_duel">Próximo duelo</string>
+    <string name="tournament_frame_title">Torneio · duelo %1$d</string>
+    <string name="tournament_frame_subtitle">%1$s · %2$s</string>
+    <string name="tournament_over_title">Torneio terminado</string>
+    <plurals name="tournament_over_lost">
+        <item quantity="one">Venceste %1$d de %2$d duelo.</item>
+        <item quantity="many">Venceste %1$d de %2$d duelos.</item>
+        <item quantity="other">Venceste %1$d de %2$d duelos.</item>
+    </plurals>
+    <plurals name="tournament_over_champion">
+        <item quantity="one">Campeão! Venceste o %1$d duelo.</item>
+        <item quantity="many">Campeão! Venceste os %1$d duelos.</item>
+        <item quantity="other">Campeão! Venceste os %1$d duelos.</item>
+    </plurals>
+    <string name="tournament_over_forfeit">Recomeçar um duelo desiste do torneio.</string>
+    <string name="tournament_build_failed">Não foi possível montar este duelo. Volta a colocar a frota.</string>
+    <!-- Rótulos TalkBack das casas do mar (ui/board/BoardLabels). -->
+    <string name="board_cell_label">%1$s, %2$s</string>
+    <string name="board_action_select">Selecionar casa</string>
+    <string name="board_state_unknown">por disparar</string>
+    <string name="board_state_empty_sea">mar vazio</string>
+    <string name="board_state_water">água</string>
+    <string name="board_state_hit">acertado</string>
+    <string name="board_state_sunk">afundado</string>
+    <string name="board_state_contact">contacto submerso</string>
+    <string name="board_state_mine">mina</string>
+    <string name="board_state_decoy">isco afundado</string>
+    <string name="board_state_repaired">reparado</string>
+    <string name="board_state_island">ilha</string>
+    <string name="board_state_reef">recife</string>
+    <string name="board_state_own_ship">o teu navio</string>
+    <string name="board_state_own_ship_hit">o teu navio, atingido</string>
+    <string name="board_state_revealed_ship">navio por afundar</string>
+    <string name="battle_ship_sunk">afundado</string>
+    <string name="battle_ship_afloat">por afundar</string>
+    <string name="freeplay_mines_fewer">Menos minas</string>
+    <string name="freeplay_mines_more">Mais minas</string>
+    <string name="daily_day_label">%1$s: enigmas %2$d, caça %3$d</string>
+</resources>

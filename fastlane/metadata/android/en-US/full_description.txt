@@ -1,0 +1,36 @@
+Night Fleet is an offline naval battle for Android. Command your fleet against twelve admirals, each with their own style, across twelve seas.
+
+CAMPAIGN
+- Twelve seas with 50 missions each: 600 missions in all, each one in Easy, Medium or Hard.
+- Duels, hunts, convoys and boss battles, with an admiral waiting at the end of every sea.
+- Admirals with personality. The rival AI is fair and deterministic: it never sees your fleet, and the same position always gets the same answer.
+- Lighthouse puzzles: logic grids with row and column numbers, solved by reasoning rather than guessing. Each puzzle has a single proven solution.
+- Stars for finishing with few shots, ranks, a logbook of your battles and achievements.
+
+RULES AND WEAPONS
+- Classic 10×10 boards, and grids from 8×8 to 12×12.
+- Islands and reefs, salvo shots, school rules with seaplanes, submarines that dive, fog, moving ships and minefields.
+- Rules can be combined in free play.
+- Six special weapons: sonar, torpedo, air reconnaissance, cross barrage, decoy and repair. They recharge by sinking enemy ships; they are never bought.
+
+MODES
+- Daily challenge: a new puzzle and a new hunt every day, in each difficulty.
+- Two-player duel on one device, with a privacy curtain between turns.
+- Free play with the opponent, level, grid and rules you choose.
+- Endless puzzles, solved one after another.
+- Patrol: one shared reserve of shots, sea after sea.
+- Admirals' tournament: eight defeated admirals, and one lost duel ends it.
+
+LOOK AND ACCESSIBILITY
+- Four visual themes: Chart, Sonar, Paper Fleet and Holo Tactical. Change them in Settings at any time.
+- Colour-blind palettes, and marks that use shape as well as colour.
+- Screen reader labels for coordinates and results.
+- Reduced motion, larger text and an option to confirm every shot.
+- English and European Portuguese, switchable in the app.
+
+PRIVACY
+- No internet permission. No ads, no accounts, no analytics and no tracking.
+- The only permission is vibration, for impacts.
+- Your progress stays on the device, and you can export and import it yourself.
+
+Source code and licences: MIT for the code, SIL Open Font License for the fonts.

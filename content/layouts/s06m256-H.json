@@ -1,0 +1,1416 @@
+{
+  "fleet": "SCHOOL",
+  "id": "s06m256-H",
+  "layouts": [
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 3,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 9,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 7,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 1,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 3,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 2,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 5,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 2,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 3,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 3,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 4,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 7,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 8,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 2,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 9,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 3,
+        "row": 4,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 2,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 8,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 1,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 2,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 8,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 3,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 2,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 2,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 7,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 2,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 3,
+        "row": 4,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 5,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 2,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 6,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 1,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 7,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 1,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 4,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 1,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 3,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 2,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 6,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 2,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 6,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 3,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 2,
+        "row": 4,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 3,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 3,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 3,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 2,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 2,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 2,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 7,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 2,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 1,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 8,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 1,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 5,
+        "rotation": 3,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 3,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 6,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 3,
+        "row": 4,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 3,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 6,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 2,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 1,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 9,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 1,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 3,
+        "row": 3,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 8,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 6,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 7,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 7,
+        "rotation": 0,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 7,
+        "rotation": 2,
+        "row": 1,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 4,
+        "rotation": 3,
+        "row": 4,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 8,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 8,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 3,
+        "row": 1,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 2,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 1,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 5,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 3,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 7,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 1,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 9,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 1,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 8,
+        "rotation": 3,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 6,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 2,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 5,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 7,
+        "rotation": 2,
+        "row": 6,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 0,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 3,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 2,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 1,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 4,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 8,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 2,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 4,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 8,
+        "rotation": 0,
+        "row": 2,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 5,
+        "ship": "MIDGET_SUB"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 2,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 9,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 2,
+        "row": 0,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 7,
+        "ship": "SEAPLANE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 3,
+        "ship": "MIDGET_SUB"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 6,
+        "ship": "MIDGET_SUB"
+      }
+    ]
+  ],
+  "terrain": "archipelago-corridor-s06m256",
+  "terrainHash": "e5fb2a0145f2fe0f6b82c6296387e935fab7ff012b20b2396d4f3c0401188f56"
+}

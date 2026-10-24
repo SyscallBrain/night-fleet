@@ -1,0 +1,11 @@
+{
+  "admiralId": "sapper-iron",
+  "introCards": [
+    "intro.mines",
+    "intro.recon"
+  ],
+  "musicTrack": "low-pulse",
+  "nameKey": "sea.s05.name",
+  "number": 5,
+  "weather": "moonless-night"
+}

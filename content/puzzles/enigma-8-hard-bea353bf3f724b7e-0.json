@@ -1,0 +1,38 @@
+{
+  "colCounts": [
+    1,
+    0,
+    0,
+    5,
+    1,
+    3,
+    2,
+    2
+  ],
+  "fleet": [
+    4,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "givens": {
+    "23": "END_S"
+  },
+  "height": 8,
+  "id": "enigma-8-hard-bea353bf3f724b7e-0",
+  "islands": [],
+  "rowCounts": [
+    0,
+    3,
+    3,
+    2,
+    1,
+    2,
+    2,
+    1
+  ],
+  "width": 8
+}

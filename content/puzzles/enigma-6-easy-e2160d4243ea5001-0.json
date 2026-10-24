@@ -1,0 +1,40 @@
+{
+  "colCounts": [
+    3,
+    1,
+    2,
+    1,
+    2,
+    1
+  ],
+  "fleet": [
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "givens": {
+    "0": "SHIP",
+    "1": "WATER",
+    "13": "WATER",
+    "24": "SHIP",
+    "25": "SHIP",
+    "27": "WATER",
+    "3": "SHIP",
+    "6": "WATER"
+  },
+  "height": 6,
+  "id": "enigma-6-easy-e2160d4243ea5001-0",
+  "islands": [],
+  "rowCounts": [
+    3,
+    1,
+    1,
+    0,
+    4,
+    1
+  ],
+  "width": 6
+}

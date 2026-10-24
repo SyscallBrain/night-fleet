@@ -1,0 +1,328 @@
+{
+  "fleet": "TUTORIAL",
+  "id": "s01m001-E",
+  "layouts": [
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 3,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 7,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 4,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 3,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 1,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 3,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 4,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 7,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 7,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 1,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 6,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 2,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 7,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 2,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 3,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 3,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ]
+  ],
+  "terrain": "islands-scatter-s01m001",
+  "terrainHash": "1343686397fbb18d0a3656b1f9982e69fd7d32a99ebaea07f63bcdeb99faa0a2"
+}

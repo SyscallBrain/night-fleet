@@ -1,0 +1,88 @@
+{
+  "fleet": "TUTORIAL",
+  "id": "s01-tutorial",
+  "layouts": [
+    [
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 2,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 2,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 7,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 6,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 5,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 6,
+        "ship": "DESTROYER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 5,
+        "ship": "DESTROYER"
+      }
+    ]
+  ],
+  "terrain": "islands-8",
+  "terrainHash": "3cf9f65d00483fda9851c0d20ef8da2283401387f8c7cea43c6fbd8716cb4dbd"
+}

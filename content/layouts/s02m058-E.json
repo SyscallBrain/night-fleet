@@ -1,0 +1,424 @@
+{
+  "fleet": "SMALL",
+  "id": "s02m058-E",
+  "layouts": [
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 5,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 3,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 7,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 1,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 1,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 7,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 2,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 7,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 1,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 3,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 2,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 4,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 2,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 7,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 7,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 5,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 7,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 0,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 3,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 3,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 2,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 0,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 1,
+        "row": 3,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 3,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 1,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 4,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 6,
+        "rotation": 1,
+        "row": 0,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 1,
+        "rotation": 1,
+        "row": 5,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 6,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 4,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 2,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 2,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 1,
+        "rotation": 0,
+        "row": 3,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 4,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 2,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 2,
+        "rotation": 1,
+        "row": 0,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 0,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 5,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 1,
+        "ship": "DESTROYER"
+      }
+    ]
+  ],
+  "terrain": "archipelago-corridor-s02m058",
+  "terrainHash": "eab5ce3321d74a8047b023ec744a72a8347123f8cf490352692ecc1fa127521a"
+}

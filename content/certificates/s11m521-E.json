@@ -1,0 +1,69 @@
+{
+  "aiVersion": 3,
+  "contentVersion": 1,
+  "difficulty": "EASY",
+  "engineVersion": 1,
+  "id": "s11m521-E",
+  "kind": "CALIBRATION",
+  "missionId": "s11m521",
+  "outOfBand": false,
+  "poolHash": "9a74144b9855589b3ef31c36721d945e7dd59c3a7287626f85c295ab171a2733",
+  "sample": {
+    "games": 64,
+    "shots": {
+      "p10": 58,
+      "p35": 67,
+      "p50": 70,
+      "p70": 74,
+      "p90": 77
+    },
+    "wins": 58
+  },
+  "thresholds": {
+    "three": 67,
+    "two": 74
+  },
+  "tuning": {
+    "adjustments": 1,
+    "admiralWeapons": [
+      "SONAR"
+    ],
+    "blunder": 215,
+    "budgetFactorPermille": null,
+    "followUpMiss": 450,
+    "hardClearPermille": null,
+    "measurements": 2,
+    "minFreighters": null,
+    "surviveRounds": null,
+    "tier": "EASY",
+    "weaponDelay": 0,
+    "winPermille": 906
+  },
+  "variantHash": "d913f3388830ca750d720432f548ce48868b647c86aabd03761d6255a585145e",
+  "witness": {
+    "actions": [
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":3,\"col\":6},{\"row\":0,\"col\":6},{\"row\":5,\"col\":9},{\"row\":6,\"col\":5},{\"row\":5,\"col\":5},{\"row\":4,\"col\":8},{\"row\":5,\"col\":1}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":0,\"col\":5},{\"row\":9,\"col\":5},{\"row\":3,\"col\":0},{\"row\":0,\"col\":6},{\"row\":4,\"col\":6},{\"row\":1,\"col\":4},{\"row\":6,\"col\":9}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":3,\"col\":8},{\"row\":4,\"col\":9},{\"row\":4,\"col\":7},{\"row\":5,\"col\":8},{\"row\":3,\"col\":9},{\"row\":1,\"col\":0},{\"row\":6,\"col\":8}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":0,\"col\":8},{\"row\":2,\"col\":7},{\"row\":6,\"col\":8},{\"row\":1,\"col\":5},{\"row\":1,\"col\":6},{\"row\":0,\"col\":4}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":3,\"col\":7},{\"row\":4,\"col\":6},{\"row\":5,\"col\":3},{\"row\":8,\"col\":3},{\"row\":4,\"col\":3},{\"row\":4,\"col\":5},{\"row\":2,\"col\":5}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":2,\"col\":4},{\"row\":5,\"col\":5},{\"row\":7,\"col\":1},{\"row\":9,\"col\":8},{\"row\":8,\"col\":0}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":1,\"col\":6},{\"row\":9,\"col\":8},{\"row\":8,\"col\":6},{\"row\":2,\"col\":4},{\"row\":0,\"col\":4},{\"row\":0,\"col\":5},{\"row\":0,\"col\":3}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":7,\"col\":8},{\"row\":4,\"col\":9},{\"row\":6,\"col\":1},{\"row\":3,\"col\":2},{\"row\":7,\"col\":0}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":8,\"col\":8},{\"row\":1,\"col\":3},{\"row\":1,\"col\":4},{\"row\":9,\"col\":7},{\"row\":0,\"col\":9},{\"row\":1,\"col\":5},{\"row\":2,\"col\":3}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":2,\"col\":3},{\"row\":2,\"col\":5},{\"row\":9,\"col\":4},{\"row\":2,\"col\":9},{\"row\":7,\"col\":2}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":3,\"col\":3},{\"row\":7,\"col\":2},{\"row\":9,\"col\":0},{\"row\":2,\"col\":2},{\"row\":8,\"col\":7},{\"row\":9,\"col\":6}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":9,\"col\":6},{\"row\":6,\"col\":7},{\"row\":5,\"col\":1}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":2,\"col\":7},{\"row\":0,\"col\":2},{\"row\":9,\"col\":1},{\"row\":8,\"col\":0},{\"row\":5,\"col\":0},{\"row\":7,\"col\":3}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":8,\"col\":1},{\"row\":5,\"col\":9}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":9,\"col\":2},{\"row\":7,\"col\":0},{\"row\":8,\"col\":1},{\"row\":0,\"col\":0},{\"row\":5,\"col\":2},{\"row\":2,\"col\":0}]}"
+    ],
+    "decoys": [
+      "B7"
+    ],
+    "enemyLayout": 0,
+    "finalHash": "376aedc61fe50700",
+    "firstPlayer": 0,
+    "seedHex": "f20a29cff4b3633d"
+  }
+}

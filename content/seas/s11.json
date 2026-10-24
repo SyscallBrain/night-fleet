@@ -1,0 +1,12 @@
+{
+  "admiralId": "the-leviathan",
+  "introCards": [
+    "intro.large",
+    "intro.fog",
+    "intro.moving"
+  ],
+  "musicTrack": "deep-bass",
+  "nameKey": "sea.s11.name",
+  "number": 11,
+  "weather": "deep-sea"
+}

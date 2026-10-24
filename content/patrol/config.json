@@ -1,0 +1,186 @@
+{
+  "extraMinesPerGrowth": 1,
+  "growthAfter": 20,
+  "stages": [
+    {
+      "fleet": "SMALL",
+      "height": 8,
+      "mines": 0,
+      "ordinal": 1,
+      "reloadBudget": 2,
+      "terrain": null,
+      "width": 8
+    },
+    {
+      "fleet": "SMALL",
+      "height": 8,
+      "mines": 0,
+      "ordinal": 2,
+      "reloadBudget": 2,
+      "terrain": null,
+      "width": 8
+    },
+    {
+      "fleet": "SMALL",
+      "height": 8,
+      "mines": 0,
+      "ordinal": 3,
+      "reloadBudget": 2,
+      "terrain": null,
+      "width": 8
+    },
+    {
+      "fleet": "SMALL",
+      "height": 8,
+      "mines": 0,
+      "ordinal": 4,
+      "reloadBudget": 2,
+      "terrain": null,
+      "width": 8
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 5,
+      "reloadBudget": 3,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 6,
+      "reloadBudget": 3,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 7,
+      "reloadBudget": 3,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 8,
+      "reloadBudget": 3,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 9,
+      "reloadBudget": 3,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 10,
+      "reloadBudget": 4,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 0,
+      "ordinal": 11,
+      "reloadBudget": 4,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "CLASSIC",
+      "height": 10,
+      "mines": 1,
+      "ordinal": 12,
+      "reloadBudget": 4,
+      "terrain": null,
+      "width": 10
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 1,
+      "ordinal": 13,
+      "reloadBudget": 4,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 2,
+      "ordinal": 14,
+      "reloadBudget": 4,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 2,
+      "ordinal": 15,
+      "reloadBudget": 5,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 3,
+      "ordinal": 16,
+      "reloadBudget": 5,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 3,
+      "ordinal": 17,
+      "reloadBudget": 5,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 4,
+      "ordinal": 18,
+      "reloadBudget": 5,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 4,
+      "ordinal": 19,
+      "reloadBudget": 5,
+      "terrain": null,
+      "width": 12
+    },
+    {
+      "fleet": "LARGE",
+      "height": 12,
+      "mines": 5,
+      "ordinal": 20,
+      "reloadBudget": 6,
+      "terrain": null,
+      "width": 12
+    }
+  ]
+}

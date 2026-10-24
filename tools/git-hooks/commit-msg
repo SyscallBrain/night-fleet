@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Rejects AI attribution trailers and enforces a conventional prefix on the subject line.
+set -euo pipefail
+msg_file=$1
+if grep -qiE '^(co-authored-by:|generated with|🤖)|claude|anthropic|chatgpt|openai|copilot' "$msg_file"; then
+    echo "commit-msg: AI attribution lines (Co-Authored-By, 'Generated with', tool names) are not allowed." >&2
+    exit 1
+fi
+subject=$(grep -v '^#' "$msg_file" | head -n1)
+if [[ $subject =~ ^(Merge|Revert)\  ]]; then exit 0; fi
+if ! [[ $subject =~ ^(feat|fix|content|build|ci|docs|test|refactor|chore|perf|style)(\([a-z0-9-]+\))?:\ .+ ]]; then
+    echo "commit-msg: subject must start with a type prefix, e.g. 'feat: add salvo rule'." >&2
+    exit 1
+fi

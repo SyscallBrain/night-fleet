@@ -1,0 +1,32 @@
+{
+  "aiVersion": 3,
+  "contentVersion": 1,
+  "engineVersion": 1,
+  "files": {
+    "admirals.json": "332423a89cd01c51aee529ba711ac20bf6f1e3c0f681277710a76d16dc5e9200",
+    "certificates/s01m001-E.json": "3791b2d2420904b3bf4856b0157d062d41d6a4d3b86d0bb96915542458c2abc8",
+    "certificates/s01m001-H.json": "29730518e060347ee06045f895fed9302acb0c9110a781c4a06260c526597db9",
+    "certificates/s01m001-M.json": "7a17f600b28cb84a28478a03e7f12568ebf243ccfdf3bc21bfcd98f2d5369d08",
+    "certificates/s01m002-E.json": "38cf6c47b9d99b2cfd26ef0fe5a26261d1bf2fa18994ac0264808aea6a07d6c9",
+    "certificates/s01m002-H.json": "4e8c38e4ea98ba001d5a92e2736f2206c954d71febbbe78731285614848bec80",
+    "certificates/s01m002-M.json": "47c7891cb67809cf44703ddb5e42e530dd726a8fee6a0dce17fdd8e64b0d6fd5",
+    "certificates/s01m003-E.json": "a92d16f05fa0ad050ce884bea4870575eb72018639bfeb8deff9c96230fb9f0a",
+    "certificates/s01m003-H.json": "ce26cab3d0e34bc89f262ea733d4a5ea20efdd7dda87d96b3da9b97dfa0a145c",
+    "certificates/s01m003-M.json": "66670b7a8747331450c43eedb52adb9a94ef3a9467b5914407a6ff5a2e3831d2",
+    "layouts/s01-tutorial.json": "0497dcbcf7ab488ce897783ebb89582b466c64fd4d3669154b1b43e72be21018",
+    "missions/s01/s01m001.json": "11d69a8c20f6e59a64325a829247836d114a148e3f24c0d7128b66254cb574c5",
+    "missions/s01/s01m002.json": "8201bccec50929c9defaf0063c23a23a417b85af183a88767dbeff1fc078673b",
+    "missions/s01/s01m003.json": "ccbc78035071f2b6a413b8774334493d1c879d83454ad9197096f447bc02ea85",
+    "puzzles/p-s01m003.json": "10ac9f67535300598abd9f8eba3e1488ede7a595e2a8366d812666dc9a575559",
+    "seas/s01.json": "c21970c9031a4e32118e454237c01af3d0df0263cf3c035481e9166fe52cad2b",
+    "terrains.json": "d48df694d27d37743bda9f1097494929b06c7b883c208e49abe6e516e257b49b"
+  },
+  "missions": [
+    "s01m001",
+    "s01m002",
+    "s01m003"
+  ],
+  "seas": [
+    "s01"
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Lint configuration for :app (docs/A11Y.md, M12). Every ignore below has a reason; nothing else is suppressed.
+
+  UnusedResources, keys looked up by name at run time (lint cannot see the constructed names):
+  - tutorial_m<n>_s<n>: the text of each coach mark, built from the script (ui/tutorial/TutorialScripts.kt);
+  - intro_<tag>_title|line1|line2: the mechanic cards, built from the tag (ui/intro/MechanicIntro.kt);
+  - taunt_<admiral>_<n>: the admirals' lines, named in :core (core/ai/AdmiralProfile.kt).
+  - battle_hint_button|none|cap: read by app/src/test OfficerHintsAndTauntsTest, which checks the hint texts exist.
+
+  ObsoleteSdkInt: the adaptive launcher icon stays in mipmap-anydpi-v26. Renaming the folder to mipmap-anydpi made
+  aapt2 report @mipmap/ic_launcher as not found (checked on this branch), so the redundant qualifier is kept.
+-->
+<lint>
+    <issue id="UnusedResources">
+        <ignore regexp="R\.string\.(tutorial_m[0-9]+_s[0-9]+|intro_[a-z_]+_(title|line1|line2)|taunt_[a-z]+_[0-9]|battle_hint_(button|none|cap))`" />
+    </issue>
+    <issue id="ObsoleteSdkInt">
+        <ignore regexp="folder configuration \(`v26`\) is unnecessary" />
+    </issue>
+</lint>

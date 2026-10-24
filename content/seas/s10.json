@@ -1,0 +1,11 @@
+{
+  "admiralId": "admiral-tempest",
+  "introCards": [
+    "intro.salvo",
+    "intro.cross"
+  ],
+  "musicTrack": "percussion",
+  "nameKey": "sea.s10.name",
+  "number": 10,
+  "weather": "storm"
+}

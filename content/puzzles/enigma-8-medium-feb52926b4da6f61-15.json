@@ -1,0 +1,48 @@
+{
+  "colCounts": [
+    0,
+    5,
+    0,
+    3,
+    0,
+    1,
+    1,
+    4
+  ],
+  "fleet": [
+    4,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "givens": {
+    "15": "WATER",
+    "22": "WATER",
+    "3": "WATER",
+    "30": "WATER",
+    "38": "WATER",
+    "5": "WATER",
+    "53": "SUB",
+    "59": "WATER"
+  },
+  "height": 8,
+  "id": "enigma-8-medium-feb52926b4da6f61-15",
+  "islands": [
+    36,
+    44
+  ],
+  "rowCounts": [
+    2,
+    2,
+    3,
+    2,
+    3,
+    0,
+    1,
+    1
+  ],
+  "width": 8
+}

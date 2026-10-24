@@ -1,0 +1,74 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Accept Android SDK licenses
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+
+      - name: Check tag matches versionName
+        run: |
+          v=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          [ "v$v" = "$GITHUB_REF_NAME" ] || { echo "Tag $GITHUB_REF_NAME != versionName v$v"; exit 1; }
+
+      - name: Check that the changelogs for this versionCode exist (en-US and pt-PT)
+        run: |
+          versionCode=$(grep -oP 'versionCode = \K[0-9]+' app/build.gradle.kts)
+          for locale in en-US pt-PT; do
+            f="fastlane/metadata/android/$locale/changelogs/${versionCode}.txt"
+            [ -s "$f" ] || { echo "::error::Missing changelog $f"; exit 1; }
+          done
+
+      - name: Verify (tests, lint, debug build, permissions, dependencies)
+        run: bash tools/verify.sh
+
+      - name: Build signed release APK
+        env:
+          SIGNING_KEYSTORE_B64: ${{ secrets.SIGNING_KEYSTORE_B64 }}
+          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
+          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+        run: |
+          if [ -z "$SIGNING_KEYSTORE_B64" ] || [ -z "$SIGNING_PASSWORD" ] || [ -z "$SIGNING_KEY_ALIAS" ]; then
+            echo "::error::Missing signing secrets (SIGNING_KEYSTORE_B64, SIGNING_PASSWORD, SIGNING_KEY_ALIAS)"
+            exit 1
+          fi
+          echo "$SIGNING_KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+          export SIGNING_KEYSTORE_FILE="$RUNNER_TEMP/release.jks"
+          tools/gw.sh :app:assembleRelease
+
+      - name: Remove the decoded keystore
+        if: always()
+        run: rm -f "$RUNNER_TEMP/release.jks"
+
+      - name: Name the APK
+        run: |
+          v=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          cp app/build/outputs/apk/release/app-release.apk "NightFleet-v${v}.apk"
+          echo "APK_NAME=NightFleet-v${v}.apk" >> "$GITHUB_ENV"
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          versionCode=$(grep -oP 'versionCode = \K[0-9]+' app/build.gradle.kts)
+          gh release create "$GITHUB_REF_NAME" "$APK_NAME" \
+            --title "Night Fleet ${GITHUB_REF_NAME#v}" \
+            --notes-file "fastlane/metadata/android/en-US/changelogs/${versionCode}.txt"

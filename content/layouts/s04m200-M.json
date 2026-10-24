@@ -1,0 +1,104 @@
+{
+  "fleet": "CLASSIC",
+  "id": "s04m200-M",
+  "layouts": [
+    [
+      {
+        "col": 5,
+        "rotation": 1,
+        "row": 5,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 3,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 6,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 8,
+        "rotation": 1,
+        "row": 4,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 5,
+        "rotation": 0,
+        "row": 0,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 3,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 6,
+        "rotation": 0,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 3,
+        "rotation": 0,
+        "row": 7,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 1,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 0,
+        "row": 6,
+        "ship": "DESTROYER"
+      }
+    ],
+    [
+      {
+        "col": 7,
+        "rotation": 1,
+        "row": 4,
+        "ship": "CARRIER"
+      },
+      {
+        "col": 9,
+        "rotation": 1,
+        "row": 5,
+        "ship": "BATTLESHIP"
+      },
+      {
+        "col": 2,
+        "rotation": 0,
+        "row": 5,
+        "ship": "CRUISER"
+      },
+      {
+        "col": 4,
+        "rotation": 0,
+        "row": 2,
+        "ship": "SUBMARINE"
+      },
+      {
+        "col": 0,
+        "rotation": 1,
+        "row": 4,
+        "ship": "DESTROYER"
+      }
+    ]
+  ],
+  "terrain": "islands-scatter-s04m200",
+  "terrainHash": "320621b566ea28d17499cbc60871c3ffc49bf306e45f3da4fe7a210ea9a95c0e"
+}

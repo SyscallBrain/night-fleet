@@ -1,0 +1,10 @@
+{
+  "admiralId": "sargasso-witch",
+  "introCards": [
+    "intro.torpedo"
+  ],
+  "musicTrack": "modal-flute",
+  "nameKey": "sea.s08.name",
+  "number": 8,
+  "weather": "green-fog"
+}

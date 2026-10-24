@@ -1,0 +1,61 @@
+{
+  "aiVersion": 3,
+  "contentVersion": 1,
+  "difficulty": "HARD",
+  "engineVersion": 1,
+  "id": "s10m469-H",
+  "kind": "CALIBRATION",
+  "missionId": "s10m469",
+  "outOfBand": false,
+  "poolHash": "8618e4b4a62a65e6417790d8cb781ed6be4a0217e47a6ed14adcae8e0bdb4fb5",
+  "sample": {
+    "games": 64,
+    "shots": {
+      "p10": 45,
+      "p35": 55,
+      "p50": 60,
+      "p70": 60,
+      "p90": 60
+    },
+    "wins": 39
+  },
+  "thresholds": {
+    "three": 55,
+    "two": 60
+  },
+  "tuning": {
+    "adjustments": 2,
+    "admiralWeapons": null,
+    "blunder": null,
+    "budgetFactorPermille": 1220,
+    "followUpMiss": null,
+    "hardClearPermille": 968,
+    "measurements": 3,
+    "minFreighters": null,
+    "surviveRounds": null,
+    "tier": null,
+    "weaponDelay": null,
+    "winPermille": 609
+  },
+  "variantHash": "89b51395a3beb3c55750c2a9944c0d89898a5c45afd2012eb8844ace31e8d3ef",
+  "witness": {
+    "actions": [
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":8,\"col\":0},{\"row\":6,\"col\":8},{\"row\":3,\"col\":7},{\"row\":8,\"col\":4},{\"row\":9,\"col\":5}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":3,\"col\":5},{\"row\":2,\"col\":0},{\"row\":7,\"col\":7},{\"row\":0,\"col\":0},{\"row\":9,\"col\":9}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":9,\"col\":1},{\"row\":6,\"col\":0},{\"row\":6,\"col\":2},{\"row\":2,\"col\":2},{\"row\":3,\"col\":1}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":9,\"col\":0},{\"row\":9,\"col\":2},{\"row\":8,\"col\":1},{\"row\":9,\"col\":7},{\"row\":5,\"col\":7}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":4,\"col\":7},{\"row\":7,\"col\":1},{\"row\":6,\"col\":7},{\"row\":5,\"col\":8},{\"row\":5,\"col\":6}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":0,\"col\":6},{\"row\":2,\"col\":4},{\"row\":1,\"col\":7},{\"row\":9,\"col\":6},{\"row\":1,\"col\":9}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":0,\"col\":2},{\"row\":3,\"col\":3},{\"row\":2,\"col\":6},{\"row\":4,\"col\":0},{\"row\":1,\"col\":1}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":4,\"col\":3},{\"row\":3,\"col\":2},{\"row\":2,\"col\":3},{\"row\":2,\"col\":7},{\"row\":3,\"col\":4}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":4,\"col\":2},{\"row\":5,\"col\":3},{\"row\":2,\"col\":8},{\"row\":4,\"col\":4},{\"row\":1,\"col\":6}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":2,\"col\":5},{\"row\":2,\"col\":9},{\"row\":1,\"col\":3},{\"row\":1,\"col\":8},{\"row\":7,\"col\":9}]}",
+      "{\"type\":\"pt.tiago.nightfleet.core.engine.Action.Salvo\",\"cells\":[{\"row\":8,\"col\":9},{\"row\":6,\"col\":9},{\"row\":9,\"col\":3},{\"row\":0,\"col\":8},{\"row\":6,\"col\":4}]}"
+    ],
+    "decoys": [],
+    "enemyLayout": 2,
+    "finalHash": "6e428df04d137b0a",
+    "firstPlayer": 0,
+    "seedHex": "0b8e80b3f8aafd66"
+  }
+}
